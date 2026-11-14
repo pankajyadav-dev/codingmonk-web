@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Builds the site locally on Node 24 and ships it to the server, which runs it in a node:24-slim container.
+# Clones the pushed commit from GitHub, builds it on Node 24, and ships it to the server,
+# which runs it in a node:24-slim container. Nothing is built on the server.
 # Usage: SITE_URL=https://www.example.in DEPLOY_HOST=ubuntu@1.2.3.4 DEPLOY_KEY=~/.ssh/key.pem scripts/deploy.sh
 set -euo pipefail
 
@@ -8,13 +9,23 @@ set -euo pipefail
 DEPLOY_KEY="${DEPLOY_KEY:-$HOME/.ssh/virat.pem}"
 NODE_BIN_DIR="${NODE_BIN_DIR:-$HOME/.nvm/versions/node/v24.22.3/bin}"
 APP_PORT="${APP_PORT:-3100}"
+REPOSITORY_URL="${REPOSITORY_URL:-https://github.com/pankajyadav-dev/codingmonk-web.git}"
+GIT_BRANCH="${GIT_BRANCH:-main}"
+BUN_BINARY="${BUN_BINARY:-$HOME/.bun/bin/bun}"
 REMOTE_ROOT="/srv/codingmonk"
+WORK_DIRECTORY="$(mktemp -d)"
+SOURCE_DIRECTORY="$WORK_DIRECTORY/source"
+RELEASE_DIRECTORY="$WORK_DIRECTORY/release"
+trap 'rm -rf "$WORK_DIRECTORY"' EXIT
+
+echo "Cloning $REPOSITORY_URL ($GIT_BRANCH)"
+git clone --quiet --depth 1 --branch "$GIT_BRANCH" "$REPOSITORY_URL" "$SOURCE_DIRECTORY"
+cd "$SOURCE_DIRECTORY"
 RELEASE_NAME="$(date -u +%Y%m%d%H%M%S)-$(git rev-parse --short HEAD)"
-RELEASE_DIRECTORY="$(mktemp -d)/release"
+"$BUN_BINARY" install --frozen-lockfile
 SSH=(ssh -i "$DEPLOY_KEY" -o ConnectTimeout=20 "$DEPLOY_HOST")
 
 echo "Building $RELEASE_NAME for $SITE_URL on Node $("$NODE_BIN_DIR/node" --version)"
-rm -rf .next
 BUILD_STANDALONE=true SITE_URL="$SITE_URL" PATH="$NODE_BIN_DIR:$PATH" node node_modules/next/dist/bin/next build
 
 mkdir -p "$RELEASE_DIRECTORY/.next" "$RELEASE_DIRECTORY/src/app" "$RELEASE_DIRECTORY/node_modules/@electric-sql"

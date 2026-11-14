@@ -16,6 +16,14 @@ export function AppLink({ href, children, ...anchorProps }: AppLinkProps) {
       </a>
     );
   }
+  if (href.includes("#")) {
+    // Native anchors scroll to the section again even when the URL already ends with the same #hash.
+    return (
+      <a href={href} {...anchorProps}>
+        {children}
+      </a>
+    );
+  }
   return (
     <Link href={href as Route} {...anchorProps}>
       {children}
