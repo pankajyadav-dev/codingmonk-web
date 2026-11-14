@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Instrument_Serif, Sora, Source_Sans_3 } from "next/font/google";
+import { Instrument_Serif, Noto_Sans, Sora } from "next/font/google";
 import { AnnouncementBar } from "@/components/organisms/announcement-bar";
 import { SiteFooter } from "@/components/organisms/site-footer";
 import { SiteHeader } from "@/components/organisms/site-header";
@@ -19,11 +19,11 @@ const soraDisplayFont = Sora({ subsets: ["latin"], variable: "--font-sora", disp
 const instrumentSerifAccentFont = Instrument_Serif({
   subsets: ["latin"],
   weight: "400",
-  style: ["normal", "italic"],
+  style: "italic",
   variable: "--font-instrument-serif",
   display: "swap",
 });
-const sourceSansBodyFont = Source_Sans_3({ subsets: ["latin"], variable: "--font-source-sans", display: "swap" });
+const notoSansBodyFont = Noto_Sans({ subsets: ["latin"], variable: "--font-noto-sans", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
@@ -59,7 +59,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
       lang={siteContent.language}
       suppressHydrationWarning
       data-scroll-behavior="smooth"
-      className={`${soraDisplayFont.variable} ${instrumentSerifAccentFont.variable} ${sourceSansBodyFont.variable}`}
+      className={`${soraDisplayFont.variable} ${instrumentSerifAccentFont.variable} ${notoSansBodyFont.variable}`}
     >
       <body className="flex min-h-dvh flex-col">
         <ThemeProvider>

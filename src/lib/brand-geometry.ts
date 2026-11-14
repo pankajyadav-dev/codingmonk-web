@@ -1,4 +1,5 @@
-export const brandMarkViewBox = "0 0 48 48";
+export const brandMarkViewBoxSize = 48;
+export const brandMarkViewBox = `0 0 ${brandMarkViewBoxSize} ${brandMarkViewBoxSize}`;
 export const leftBracketPath = "M13 11 4 23.5 13 36";
 export const rightBracketPath = "M35 11l9 12.5-9 12.5";
 export const monkHead = { cx: 24, cy: 12.4, r: 3.9 };

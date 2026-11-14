@@ -8,22 +8,28 @@ export function HeroRing({ outerRingText, innerRingText, badges }: HeroRingProps
     <div className="relative mx-0 aspect-square w-full max-w-[440px] justify-self-start lg:max-w-[560px] lg:justify-self-end">
       <div className="absolute inset-[8%]">
         <svg viewBox="0 0 400 400" aria-hidden="true" className="absolute inset-0 size-full overflow-visible">
-          <defs>
-            <path id="hero-ring-outer" d="M200,200 m-185,0 a185,185 0 1,1 370,0 a185,185 0 1,1 -370,0" />
-            <path id="hero-ring-inner" d="M200,200 m-150,0 a150,150 0 1,1 300,0 a150,150 0 1,1 -300,0" />
-          </defs>
           <circle cx="200" cy="200" r="199" fill="none" className="stroke-line" />
           <circle cx="200" cy="200" r="166" fill="none" strokeDasharray="2 7" className="stroke-line" />
-          <g className="origin-center animate-ring-spin [transform-box:view-box]">
-            <text className="fill-muted font-display text-[13.5px] tracking-[2.2px]">
-              <textPath href="#hero-ring-outer">{outerRingText}</textPath>
-            </text>
-          </g>
-          <g className="origin-center animate-ring-spin-reverse [transform-box:view-box]">
-            <text className="fill-brand font-display text-[12px] tracking-[1.6px]">
-              <textPath href="#hero-ring-inner">{innerRingText}</textPath>
-            </text>
-          </g>
+        </svg>
+        <svg
+          viewBox="0 0 400 400"
+          aria-hidden="true"
+          className="absolute inset-0 size-full animate-ring-spin overflow-visible will-change-transform"
+        >
+          <path id="hero-ring-outer" d="M200,200 m-185,0 a185,185 0 1,1 370,0 a185,185 0 1,1 -370,0" fill="none" />
+          <text className="fill-muted font-display text-[13.5px] tracking-[2.2px]">
+            <textPath href="#hero-ring-outer">{outerRingText}</textPath>
+          </text>
+        </svg>
+        <svg
+          viewBox="0 0 400 400"
+          aria-hidden="true"
+          className="absolute inset-0 size-full animate-ring-spin-reverse overflow-visible will-change-transform"
+        >
+          <path id="hero-ring-inner" d="M200,200 m-150,0 a150,150 0 1,1 300,0 a150,150 0 1,1 -300,0" fill="none" />
+          <text className="fill-brand font-display text-[12px] tracking-[1.6px]">
+            <textPath href="#hero-ring-inner">{innerRingText}</textPath>
+          </text>
         </svg>
         <div className="absolute inset-[26%] grid place-items-center rounded-full border-[6px] border-brand bg-surface-raised shadow-brand">
           <BrandMark size={96} isAnimated />

@@ -1,5 +1,6 @@
 import {
   brandMarkViewBox,
+  brandMarkViewBoxSize,
   leftBracketPath,
   monkArmsPath,
   monkArmsStrokeWidth,
@@ -43,61 +44,74 @@ export function BrandMark({ size = 36, isAnimated = false, className }: BrandMar
       )}
     />
   );
+  const auraDiameterPercent = ((monkHead.r * 2) / brandMarkViewBoxSize) * 100;
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox={brandMarkViewBox}
+    <span
       aria-hidden="true"
-      className={cn("shrink-0 overflow-visible", className)}
+      className={cn("relative inline-block shrink-0", className)}
+      style={{ width: size, height: size }}
     >
-      <path
-        d={leftBracketPath}
-        pathLength={1}
-        fill="none"
-        strokeWidth="4.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className={cn(bracketStyles, isAnimated && "group-hover:-translate-x-[1.5px]")}
-      />
-      <path
-        d={rightBracketPath}
-        pathLength={1}
-        fill="none"
-        strokeWidth="4.2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className={cn(bracketStyles, isAnimated && "group-hover:translate-x-[1.5px]")}
-      />
       {isAnimated ? (
-        <circle
-          {...monkHead}
-          fill="none"
-          strokeWidth="1.5"
-          className={cn("animate-monk-aura stroke-brand opacity-0 [transform-origin:center]", animatedPartStyles)}
+        <span
+          className="absolute animate-monk-aura rounded-full border-brand opacity-0 will-change-[transform,opacity]"
+          style={{
+            left: `${(monkHead.cx / brandMarkViewBoxSize) * 100}%`,
+            top: `${(monkHead.cy / brandMarkViewBoxSize) * 100}%`,
+            width: `${auraDiameterPercent}%`,
+            height: `${auraDiameterPercent}%`,
+            marginLeft: `${-auraDiameterPercent / 2}%`,
+            marginTop: `${-auraDiameterPercent / 2}%`,
+            borderWidth: (size * 1.5) / brandMarkViewBoxSize,
+          }}
         />
       ) : null}
-      {restingArms}
-      {crossedLegs}
-      <g className={cn("fill-brand", isAnimated && "animate-monk-sit-down")}>
-        <circle {...monkHead} />
-        <path d={monkTorsoPath} />
-        {isAnimated ? (
-          <path
-            d={monkStandingArmsPath}
-            fill="none"
-            strokeWidth={monkArmsStrokeWidth}
-            strokeLinecap="round"
-            className="animate-monk-arms-lower stroke-brand opacity-0"
-          />
-        ) : null}
-        {isAnimated ? (
-          <path
-            d={monkStandingRobePath}
-            className={cn("animate-monk-legs-fold opacity-0 [transform-origin:top]", animatedPartStyles)}
-          />
-        ) : null}
-      </g>
-    </svg>
+      <svg
+        width={size}
+        height={size}
+        viewBox={brandMarkViewBox}
+        aria-hidden="true"
+        className="relative overflow-visible"
+      >
+        <path
+          d={leftBracketPath}
+          pathLength={1}
+          fill="none"
+          strokeWidth="4.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className={cn(bracketStyles, isAnimated && "group-hover:-translate-x-[1.5px]")}
+        />
+        <path
+          d={rightBracketPath}
+          pathLength={1}
+          fill="none"
+          strokeWidth="4.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className={cn(bracketStyles, isAnimated && "group-hover:translate-x-[1.5px]")}
+        />
+        {restingArms}
+        {crossedLegs}
+        <g className={cn("fill-brand", isAnimated && "animate-monk-sit-down")}>
+          <circle {...monkHead} />
+          <path d={monkTorsoPath} />
+          {isAnimated ? (
+            <path
+              d={monkStandingArmsPath}
+              fill="none"
+              strokeWidth={monkArmsStrokeWidth}
+              strokeLinecap="round"
+              className="animate-monk-arms-lower stroke-brand opacity-0"
+            />
+          ) : null}
+          {isAnimated ? (
+            <path
+              d={monkStandingRobePath}
+              className={cn("animate-monk-legs-fold opacity-0 [transform-origin:top]", animatedPartStyles)}
+            />
+          ) : null}
+        </g>
+      </svg>
+    </span>
   );
 }

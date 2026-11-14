@@ -24,8 +24,8 @@ export const shareImageFonts = [
     style: "normal" as const,
   },
   {
-    name: "Source Sans",
-    data: readFileSync(path.join(process.cwd(), "assets/fonts/source-sans-semibold.ttf")),
+    name: "Noto Sans",
+    data: readFileSync(path.join(process.cwd(), "assets/fonts/noto-sans-semibold.ttf")),
     weight: 600 as const,
     style: "normal" as const,
   },
@@ -81,7 +81,7 @@ export function ShareImageArtwork({ eyebrow, title, footer }: ShareImageArtworkP
         padding: 72,
         background: lightThemeTokens.panel,
         color: lightThemeTokens.panelInk,
-        fontFamily: "Source Sans",
+        fontFamily: "Noto Sans",
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 14, fontFamily: "Sora", fontSize: 38 }}>

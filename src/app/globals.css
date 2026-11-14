@@ -92,7 +92,7 @@
 
   --font-display: var(--font-sora), "Segoe UI", system-ui, sans-serif;
   --font-accent: var(--font-instrument-serif), Georgia, serif;
-  --font-body: var(--font-source-sans), "Segoe UI", system-ui, sans-serif;
+  --font-body: var(--font-noto-sans), "Segoe UI", system-ui, sans-serif;
   --font-sans: var(--font-body);
 
   --shadow-raised: 0 10px 30px var(--shadow-color);

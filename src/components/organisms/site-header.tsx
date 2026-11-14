@@ -25,7 +25,7 @@ export function SiteHeader({
   menuLabels,
 }: SiteHeaderProps) {
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-line bg-background/90 backdrop-blur-md">
+    <header className="sticky top-0 z-40 w-full border-b border-line bg-background">
       <div className="flex min-h-[68px] items-center gap-6 px-gutter py-3 xl:gap-10">
         <AppLink href="/" aria-label={siteName} className="group flex shrink-0 items-center gap-2 text-ink">
           <BrandMark isAnimated />
