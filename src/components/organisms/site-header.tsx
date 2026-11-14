@@ -29,7 +29,7 @@ export function SiteHeader({
       <div className="flex min-h-[68px] items-center gap-6 px-gutter py-3 xl:gap-10">
         <AppLink href="/" aria-label={siteName} className="group flex shrink-0 items-center gap-2 text-ink">
           <BrandMark isAnimated />
-          <BrandWordmark lead={wordmark.lead} accent={wordmark.accent} className="text-heading-sm" />
+          <BrandWordmark lead={wordmark.lead} accent={wordmark.accent} className="text-[1.25rem]" />
         </AppLink>
         <HeaderNavigationLinks links={navigationLinks} ariaLabel={menuLabels.mainNavigation} />
         <div className="ml-auto flex items-center gap-3">
