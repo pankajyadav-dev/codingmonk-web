@@ -6,7 +6,7 @@ const themes: ThemeName[] = ["light", "dark"];
 
 for (const route of [...marketingRoutes, "/programs/6-month-placement-program"]) {
   for (const theme of themes) {
-    test(`looks the same as the approved design: ${route} (${theme})`, async ({ page }) => {
+    test(`looks the same as the approved design: ${route} (${theme}) @visual`, async ({ page }) => {
       await openPageInTheme(page, route, theme);
       await expect(page).toHaveScreenshot(
         `${route === "/" ? "home" : route.slice(1).replaceAll("/", "-")}-${theme}.png`,

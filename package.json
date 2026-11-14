@@ -13,14 +13,15 @@
     "check:tokens": "bun scripts/check-design-tokens.ts",
     "check:spelling": "bun --bun x cspell --no-progress --no-summary",
     "test:unit": "bun test tests/unit",
-    "test:e2e": "bun --bun x playwright test",
-    "test:visual:update": "bun --bun x playwright test visual-regression --update-snapshots",
+    "test:e2e": "bun --bun x playwright test --grep-invert @visual",
+    "test:visual:update": "bun --bun x playwright test --grep @visual --update-snapshots",
     "build:node": "PATH=$HOME/.nvm/versions/node/v24.22.3/bin:$PATH node node_modules/next/dist/bin/next build",
     "db:generate": "bun --bun x drizzle-kit generate",
     "db:migrate": "bun --bun x drizzle-kit migrate",
     "verify": "bun run lint && bun run typecheck && bun run check:content && bun run check:tokens && bun run check:spelling && bun run test:unit && bun run build && bun run test:e2e",
     "prepare": "bun --bun x lefthook install",
-    "content:sync-youtube": "bun scripts/sync-youtube-availability.ts"
+    "content:sync-youtube": "bun scripts/sync-youtube-availability.ts",
+    "test:visual": "bun --bun x playwright test --grep @visual"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.16",
