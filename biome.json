@@ -1,39 +1,173 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.4.2/schema.json",
-  "vcs": {
-    "enabled": true,
-    "clientKind": "git",
-    "useIgnoreFile": true
-  },
+  "$schema": "https://biomejs.dev/schemas/2.6.7/schema.json",
+  "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!node_modules", "!.next", "!dist", "!build"]
+    "includes": [
+      "**",
+      "!node_modules",
+      "!.next",
+      "!test-results",
+      "!playwright-report",
+      "!drizzle/meta",
+      "!next-env.d.ts"
+    ]
   },
-  "formatter": {
-    "enabled": true,
-    "indentStyle": "space",
-    "indentWidth": 2
-  },
-  "css": {
-    "parser": {
-      "tailwindDirectives": true
-    }
-  },
+  "formatter": { "enabled": true, "indentStyle": "space", "indentWidth": 2, "lineWidth": 120 },
+  "css": { "parser": { "tailwindDirectives": true } },
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "preset": "recommended",
+      "style": { "noNonNullAssertion": "error", "useConsistentArrayType": "error" },
+      "suspicious": {
+        "noExplicitAny": "error",
+        "noConsole": { "level": "error", "options": { "allow": ["error", "warn"] } }
+      },
+      "nursery": {}
     },
-    "domains": {
-      "next": "recommended",
-      "react": "recommended"
-    }
+    "domains": { "next": "recommended", "react": "recommended" }
   },
-  "assist": {
-    "actions": {
-      "source": {
-        "organizeImports": "on"
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
+  "overrides": [
+    {
+      "includes": ["src/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noRestrictedGlobals": {
+              "level": "error",
+              "options": { "deniedGlobals": { "Bun": "Bun APIs only exist locally. Production runs on Node 24." } }
+            }
+          }
+        }
       }
+    },
+    {
+      "includes": ["src/components/atoms/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noRestrictedImports": {
+              "level": "error",
+              "options": {
+                "patterns": [
+                  {
+                    "group": [
+                      "@/components/molecules/**",
+                      "@/components/organisms/**",
+                      "@/components/sections/**",
+                      "@/app/**",
+                      "../molecules/**",
+                      "../organisms/**",
+                      "../sections/**"
+                    ],
+                    "message": "Atoms may only import other atoms, lib and content."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "includes": ["src/components/molecules/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noRestrictedImports": {
+              "level": "error",
+              "options": {
+                "patterns": [
+                  {
+                    "group": [
+                      "@/components/organisms/**",
+                      "@/components/sections/**",
+                      "@/app/**",
+                      "../organisms/**",
+                      "../sections/**"
+                    ],
+                    "message": "Molecules may only import atoms and other molecules."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "includes": ["src/components/organisms/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noRestrictedImports": {
+              "level": "error",
+              "options": {
+                "patterns": [
+                  {
+                    "group": ["@/components/sections/**", "@/app/**", "../sections/**"],
+                    "message": "Organisms may only import atoms, molecules and other organisms."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "includes": ["src/components/sections/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noRestrictedImports": {
+              "level": "error",
+              "options": { "patterns": [{ "group": ["@/app/**"], "message": "Sections must not import from routes." }] }
+            }
+          }
+        }
+      }
+    },
+    {
+      "includes": ["src/app/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noRestrictedImports": {
+              "level": "error",
+              "options": {
+                "patterns": [
+                  {
+                    "group": ["@/components/atoms/**", "@/components/molecules/**"],
+                    "message": "Routes compose sections and organisms. Wrap atoms and molecules in a section."
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "includes": ["src/lib/**", "src/content/**", "src/db/**"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noRestrictedImports": {
+              "level": "error",
+              "options": {
+                "patterns": [{ "group": ["@/components/**", "@/app/**"], "message": "Logic must not depend on UI." }]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "includes": ["scripts/**", "tests/**", "*.config.ts", "drizzle.config.ts"],
+      "linter": { "rules": { "suspicious": { "noConsole": "off" } } }
     }
-  }
+  ]
 }

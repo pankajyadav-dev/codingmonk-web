@@ -1,0 +1,23 @@
+[
+  {
+    "badgeLabel": "Most colleges start here",
+    "title": "Pilot batch",
+    "description": "One department, one 2-month sprint.",
+    "points": ["Free skill check first", "Trainer demo before deployment", "Decide on the next step after results"],
+    "isHighlighted": true
+  },
+  {
+    "badgeLabel": "Grow",
+    "title": "Department rollout",
+    "description": "Final and pre-final years of one or more departments.",
+    "points": ["2-month and 6-month programs", "Service-based and product-based tracks", "Batch-wise progress reports"],
+    "isHighlighted": false
+  },
+  {
+    "badgeLabel": "Full campus",
+    "title": "Campus partnership",
+    "description": "All final and pre-final year students.",
+    "points": ["Dedicated trainers on campus", "Mock interview drives every season", "Placement report for management"],
+    "isHighlighted": false
+  }
+]

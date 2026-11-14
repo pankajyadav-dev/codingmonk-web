@@ -1,0 +1,32 @@
+[
+  {
+    "collegeName": "Sample Institute of Technology",
+    "batchYear": 2026,
+    "programSlug": "6-month-placement-program",
+    "studentsTrained": 412,
+    "offers": 212,
+    "recruiters": 38,
+    "placementPercentBefore": 61,
+    "placementPercentAfter": 84
+  },
+  {
+    "collegeName": "Sample College of Engineering",
+    "batchYear": 2026,
+    "programSlug": "2-month-placement-sprint",
+    "studentsTrained": 260,
+    "offers": 146,
+    "recruiters": 27,
+    "placementPercentBefore": 58,
+    "placementPercentAfter": 78
+  },
+  {
+    "collegeName": "Sample University",
+    "batchYear": 2025,
+    "programSlug": "6-month-placement-program",
+    "studentsTrained": 520,
+    "offers": 301,
+    "recruiters": 52,
+    "placementPercentBefore": 66,
+    "placementPercentAfter": 81
+  }
+]

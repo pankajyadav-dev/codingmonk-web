@@ -1,0 +1,48 @@
+{
+  "skipToContentLabel": "Skip to main content",
+  "openMenuLabel": "Open menu",
+  "closeMenuLabel": "Close menu",
+  "whatsappButtonLabel": "Chat with us on WhatsApp",
+  "whatsappCtaLabel": "WhatsApp us",
+  "dismissAnnouncementLabel": "Dismiss announcement",
+  "sampleBadgeLabel": "sample",
+  "breadcrumbHomeLabel": "Home",
+  "playStoryLabel": "Play {name}'s story",
+  "storyComingSoon": "This video will be added soon.",
+  "placementFilters": {
+    "allBatchesLabel": "All batches",
+    "batchLabel": "{year} batch",
+    "allCompanyTypesLabel": "All companies",
+    "companyTypeLabels": {
+      "service-based": "Service-based",
+      "product-based": "Product-based"
+    }
+  },
+  "placementEmptyMessage": "No placements match these filters.",
+  "batchResultLabels": {
+    "studentsTrained": "Students trained",
+    "offers": "Offers",
+    "recruiters": "Recruiters",
+    "placementBefore": "Before",
+    "placementAfter": "After",
+    "placementPercent": "placed",
+    "batchYear": "{year} batch"
+  },
+  "programCardLinkLabel": "View curriculum",
+  "programCardHoursLabel": "hours",
+  "footerTagline": "Placement training partner for engineering colleges across India. 2-month and 6-month programs for final and pre-final year students, plus free project courses on YouTube.",
+  "footerContactHeading": "Contact",
+  "copyrightLabel": "All rights reserved.",
+  "sampleDataBanner": "Sample site with sample data for review.",
+  "stepLabel": "Step {number}",
+  "breadcrumbAriaLabel": "Breadcrumb",
+  "timelineColumnLabels": {
+    "monthsBefore": "{count} months before",
+    "oneMonthBefore": "1 month before"
+  },
+  "laneLinkLabel": "View {program}",
+  "mainNavigationLabel": "Main",
+  "mobileNavigationLabel": "Mobile",
+  "closeDialogLabel": "Close",
+  "themeToggleLabel": "Switch between light and dark theme"
+}

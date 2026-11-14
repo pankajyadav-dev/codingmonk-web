@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "service-based",
+    "title": "Service-based companies track",
+    "description": "For mass recruiters. Focus on aptitude, coding-round speed and company test patterns.",
+    "companyTests": ["TCS NQT", "Infosys", "Wipro", "Accenture", "Capgemini", "Cognizant"]
+  },
+  {
+    "slug": "product-based",
+    "title": "Product-based companies track",
+    "description": "For students aiming higher. Deeper DSA, strong projects and technical interviews.",
+    "companyTests": [
+      "Online coding assessments",
+      "DSA interview rounds",
+      "Project deep-dives",
+      "AI-assisted coding rounds"
+    ]
+  }
+]

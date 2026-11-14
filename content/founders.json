@@ -1,0 +1,23 @@
+[
+  {
+    "id": "founder-one",
+    "name": "Shreyansh",
+    "role": "Founder · Lead trainer",
+    "photo": { "src": "/images/founders/founder-one.jpg", "alt": "Shreyansh, founder and lead trainer at CodingMonk" },
+    "badgeLabel": "CodingMonk on YouTube",
+    "shortBio": "Started the CodingMonk YouTube channel to teach full-stack development by building real products: chat apps, WebRTC video calling and AI SaaS tools. Leads the curriculum and trains on campus.",
+    "links": [
+      { "label": "YouTube", "url": "https://www.youtube.com/@coding-monk" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/" }
+    ]
+  },
+  {
+    "id": "founder-two",
+    "name": "Co-founder name",
+    "role": "Co-founder · College partnerships",
+    "photo": { "src": "/images/founders/founder-two.jpg", "alt": "Co-founder, college partnerships at CodingMonk" },
+    "badgeLabel": "College partnerships",
+    "shortBio": "Works with TPOs, principals and deans to plan 2-month and 6-month placement training for each campus, from the first pilot batch to the final placement report. Replace with the real background.",
+    "links": [{ "label": "LinkedIn", "url": "https://www.linkedin.com/" }]
+  }
+]

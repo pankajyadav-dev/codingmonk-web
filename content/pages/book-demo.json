@@ -1,0 +1,152 @@
+{
+  "seo": {
+    "title": "Book a Campus Demo | CodingMonk",
+    "description": "Book a free campus demo with a CodingMonk founder. Tell us about your batch and we'll suggest the 2-month or 6-month placement program."
+  },
+  "hero": {
+    "eyebrow": "Book a campus demo",
+    "heading": "Talk to a *founder* about your batch.",
+    "description": "Three short steps. Your details are saved, then WhatsApp opens with a ready message so we can reply quickly.",
+    "founderStrip": {
+      "title": "A founder takes your call",
+      "description": "Every college demo is handled personally by the founders."
+    }
+  },
+  "founderCard": {
+    "eyebrow": "Who you'll talk to",
+    "heading": "Your demo call is with a founder",
+    "description": "We'll understand your batches and placement calendar, then suggest the 2-month or 6-month program."
+  },
+  "contactMethods": {
+    "whatsappTitle": "WhatsApp",
+    "whatsappDescription": "Fastest for TPOs.",
+    "whatsappButtonLabel": "Open WhatsApp",
+    "emailTitle": "Email",
+    "emailDescription": "For proposals, MoUs and documents.",
+    "phoneTitle": "Call"
+  },
+  "form": {
+    "steps": [
+      {
+        "id": "college",
+        "title": "College",
+        "heading": "Tell us about your college"
+      },
+      {
+        "id": "batch",
+        "title": "Batch",
+        "heading": "About the batch"
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "heading": "How can we reach you?"
+      }
+    ],
+    "fields": {
+      "requestType": {
+        "label": "What would you like?",
+        "options": {
+          "campus-demo": "Campus demo",
+          "sample-report": "Sample placement report",
+          "proposal": "Proposal"
+        }
+      },
+      "collegeName": {
+        "label": "College name",
+        "placeholder": "Full name of the college"
+      },
+      "city": {
+        "label": "City"
+      },
+      "state": {
+        "label": "State or union territory"
+      },
+      "studentsYear": {
+        "label": "Students' year",
+        "options": {
+          "final-year": "Final year",
+          "pre-final-year": "Pre-final year",
+          "both": "Both"
+        }
+      },
+      "programInterest": {
+        "label": "Program of interest",
+        "notSureLabel": "Not sure yet"
+      },
+      "batchSize": {
+        "label": "Students in the batch",
+        "placeholder": "e.g. 240"
+      },
+      "placementSeason": {
+        "label": "Target placement season",
+        "options": {
+          "2026-27": "2026–27",
+          "2027-28": "2027–28",
+          "not-sure": "Not sure yet"
+        }
+      },
+      "contactName": {
+        "label": "Your name"
+      },
+      "designation": {
+        "label": "Your designation",
+        "options": {
+          "tpo": "Training & Placement Officer",
+          "principal": "Principal",
+          "dean": "Dean",
+          "hod": "Head of Department",
+          "director": "Director / Chairman",
+          "faculty": "Faculty",
+          "other": "Other"
+        }
+      },
+      "phone": {
+        "label": "Mobile number",
+        "placeholder": "10-digit mobile number"
+      },
+      "email": {
+        "label": "Official email",
+        "placeholder": "name@college.edu.in"
+      },
+      "message": {
+        "label": "Anything else?",
+        "placeholder": "Batch timings, departments, questions"
+      },
+      "consent": {
+        "label": "I agree that CodingMonk may contact me about this request on phone, email and WhatsApp. See the privacy policy."
+      }
+    },
+    "optionalLabel": "optional",
+    "selectPlaceholder": "Select…",
+    "backLabel": "Back",
+    "continueLabel": "Continue",
+    "submitLabel": "Send and open WhatsApp",
+    "submittingLabel": "Sending…",
+    "errors": {
+      "required": "Please fill in this field.",
+      "phone": "Enter a valid 10-digit Indian mobile number.",
+      "email": "Enter a valid email address, like name@college.edu.in.",
+      "batchSize": "Enter a batch size between 10 and 5,000.",
+      "consent": "Please agree so we can contact you.",
+      "tooManyRequests": "Too many requests from this network. Please try again in a few minutes or message us on WhatsApp.",
+      "serverError": "We couldn't save your request. Please try again or message us on WhatsApp."
+    },
+    "honeypotLabel": "Leave this field empty"
+  },
+  "whatsappMessage": {
+    "intro": "Hi CodingMonk, I've just sent a request from your website.",
+    "labels": {
+      "requestType": "Request",
+      "collegeName": "College",
+      "location": "Location",
+      "studentsYear": "Students",
+      "programInterest": "Program",
+      "batchSize": "Batch size",
+      "placementSeason": "Placement season",
+      "contactName": "Name",
+      "designation": "Designation",
+      "reference": "Reference"
+    }
+  }
+}

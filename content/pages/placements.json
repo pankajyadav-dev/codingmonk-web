@@ -1,0 +1,55 @@
+{
+  "seo": {
+    "title": "Placements and Batch Results | CodingMonk",
+    "description": "Placement records and batch-wise results from CodingMonk partner colleges: offers, companies and packages in LPA."
+  },
+  "breadcrumbLabel": "Placements",
+  "sections": [
+    {
+      "type": "pageHero",
+      "eyebrow": "Placements",
+      "heading": "Every offer, on the *record.*",
+      "description": "Each placement lists the student, branch, batch, college, company and package. Sample rows are shown until real data is added."
+    },
+    {
+      "type": "stats",
+      "eyebrow": "Results",
+      "heading": "At a *glance*"
+    },
+    {
+      "type": "placementRecord",
+      "eyebrow": "Placement record",
+      "heading": "All *placements*",
+      "description": "Filter by batch year and company type.",
+      "limit": null,
+      "showFilters": true
+    },
+    {
+      "type": "batchResults",
+      "eyebrow": "Batch results",
+      "heading": "Results by *batch*",
+      "description": "Placement percentage before and after training."
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "Student stories",
+      "heading": "In their *own words*",
+      "showStudentStories": true,
+      "showQuotes": false
+    },
+    {
+      "type": "ctaBand",
+      "eyebrow": "Get started",
+      "heading": "Want results like these at *your college?*",
+      "description": "Start with a free skill check and a trainer demo on your campus.",
+      "primaryCta": {
+        "label": "Book a campus demo",
+        "href": "/book-demo#demo-form"
+      },
+      "secondaryCta": {
+        "label": "Get a sample placement report",
+        "href": "/book-demo?request=sample-report#demo-form"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "seo": {
+    "title": "About CodingMonk and Our Trainers",
+    "description": "CodingMonk began as a YouTube channel teaching full-stack development through real projects. Today the same trainers run placement programs in colleges."
+  },
+  "breadcrumbLabel": "About",
+  "sections": [
+    {
+      "type": "pageHero",
+      "eyebrow": "About",
+      "heading": "Developers who *teach* what they build.",
+      "description": "CodingMonk started as a YouTube channel teaching full-stack development through real projects. Today the same trainers run 2-month and 6-month placement programs inside engineering colleges across India."
+    },
+    {
+      "type": "values",
+      "eyebrow": "Our values",
+      "heading": "What we *believe*"
+    },
+    {
+      "type": "trainers",
+      "eyebrow": "Trainers",
+      "heading": "Our *trainers*",
+      "description": "Sample profiles. Real names, photos and experience will be added before launch."
+    },
+    {
+      "type": "courseShowcase",
+      "eyebrow": "On YouTube",
+      "heading": "Learn with us on *YouTube*",
+      "description": "Full project courses, free for every student.",
+      "limit": 6,
+      "cta": {
+        "label": "See all courses",
+        "href": "/courses"
+      }
+    },
+    {
+      "type": "ctaBand",
+      "eyebrow": "Get started",
+      "heading": "Bring CodingMonk to *your campus.*",
+      "description": "A 30-minute call with a founder, then a free skill check and trainer demo.",
+      "primaryCta": {
+        "label": "Book a campus demo",
+        "href": "/book-demo#demo-form"
+      },
+      "secondaryCta": {
+        "label": "See the programs",
+        "href": "/programs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "headerLinks": [
+    { "label": "For Colleges", "href": "/for-colleges" },
+    { "label": "Programs", "href": "/programs" },
+    { "label": "Free Courses", "href": "/courses" },
+    { "label": "Placements", "href": "/placements" },
+    { "label": "About", "href": "/about" }
+  ],
+  "headerCta": { "label": "Book a campus demo", "href": "/book-demo#demo-form" },
+  "footerGroups": [
+    {
+      "title": "Programs",
+      "links": [
+        { "label": "6-Month Placement Program", "href": "/programs/6-month-placement-program" },
+        { "label": "2-Month Placement Sprint", "href": "/programs/2-month-placement-sprint" },
+        { "label": "All programs", "href": "/programs" }
+      ]
+    },
+    {
+      "title": "For students",
+      "links": [{ "label": "Free courses", "href": "/courses" }, { "label": "Placement record", "href": "/placements" }]
+    },
+    {
+      "title": "Company",
+      "links": [
+        { "label": "For colleges", "href": "/for-colleges" },
+        { "label": "About and trainers", "href": "/about" },
+        { "label": "Book a campus demo", "href": "/book-demo#demo-form" },
+        { "label": "Privacy policy", "href": "/privacy" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Free skill check",
+    "description": "A diagnostic test for one batch shows where your students stand today.",
+    "timingLabel": "Week 0"
+  },
+  {
+    "title": "Pick the program",
+    "description": "2-month or 6-month, mapped to your exam calendar and placement season.",
+    "timingLabel": "Week 1"
+  },
+  {
+    "title": "On-campus training",
+    "description": "Trainers run sessions in your labs with weekly contests and projects.",
+    "timingLabel": "2 or 6 months"
+  },
+  {
+    "title": "Placement report",
+    "description": "Regular batch-wise updates for the TPO and a final placement-readiness report.",
+    "timingLabel": "Every week"
+  }
+]

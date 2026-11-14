@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Company-pattern mock tests",
+    "description": "Practice the tests used by service-based and product-based companies."
+  },
+  {
+    "title": "Technical and HR mock interviews",
+    "description": "One-to-one mocks with written feedback before the real interviews."
+  },
+  {
+    "title": "Projects for your resume",
+    "description": "Deployed full-stack and AI-powered apps you can explain in an interview."
+  },
+  { "title": "Free courses on YouTube", "description": "Every project course is free to watch, pause and repeat." }
+]

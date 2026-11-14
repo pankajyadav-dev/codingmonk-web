@@ -1,0 +1,46 @@
+{
+  "seo": {
+    "title": "Placement Training Programs: 2-Month and 6-Month | CodingMonk",
+    "description": "A 2-month placement sprint for final-year students and a 6-month program for pre-final year students: aptitude, DSA, projects and mock interviews."
+  },
+  "breadcrumbLabel": "Programs",
+  "sections": [
+    {
+      "type": "pageHero",
+      "eyebrow": "Programs",
+      "heading": "Placement programs for *final* and pre-final year.",
+      "description": "Two core programs: a 2-month sprint for final-year students and a 6-month program that starts in pre-final year. Add a mock interview drive or an AI project workshop when you need it."
+    },
+    {
+      "type": "programOverview",
+      "eyebrow": "Programs",
+      "heading": "Core programs and *add-ons*"
+    },
+    {
+      "type": "tracks",
+      "eyebrow": "Tracks",
+      "heading": "Service-based and *product-based*"
+    },
+    {
+      "type": "aiApproach",
+      "eyebrow": "AI-first, fundamentals always",
+      "heading": "How AI is used in *training*",
+      "description": "Students use AI tools the way development teams do today, and prove they can still code without them.",
+      "signalsHeading": "What the industry is saying"
+    },
+    {
+      "type": "ctaBand",
+      "eyebrow": "Get started",
+      "heading": "Not sure which program *fits?*",
+      "description": "We'll suggest one after a free skill check of one batch.",
+      "primaryCta": {
+        "label": "Book a campus demo",
+        "href": "/book-demo#demo-form"
+      },
+      "secondaryCta": {
+        "label": "Request a proposal",
+        "href": "/book-demo?request=proposal#demo-form"
+      }
+    }
+  ]
+}

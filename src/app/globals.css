@@ -1,26 +1,287 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* Brand palette. Change colors here only. */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --surface: #fff7ee;
+  --surface-raised: #fbeedd;
+  --ink: #1f1b16;
+  --muted: #655d54;
+  --line: #efe0cc;
+  --brand: #e8780c;
+  --on-brand: #1a0e00;
+  --brand-strong: #a34e00;
+  --accent-text: #c55f00;
+  --brand-secondary: #8a2432;
+  --brand-glow: rgb(232 120 12 / 0.14);
+  --panel: #1b1712;
+  --panel-ink: #f3e9dc;
+  --panel-muted: #a89a88;
+  --panel-line: #2e2821;
+  --panel-success: #9cd67e;
+  --panel-warning: #ffb45e;
+  --success: #276b43;
+  --danger: #b42318;
+  --whatsapp: #0f7a5c;
+  --on-whatsapp: #ffffff;
+  --overlay: rgb(0 0 0 / 0.5);
+  --shadow-color: rgb(31 27 22 / 0.12);
+  --tone-saffron-start: #b4540a;
+  --tone-saffron-end: #7a1f2b;
+  --tone-maroon-start: #7a1f2b;
+  --tone-maroon-end: #1b1712;
+  --tone-ember-start: #8a4200;
+  --tone-ember-end: #b4540a;
+  --tone-ink-start: #1b1712;
+  --tone-ink-end: #9a4a00;
+  --on-tone: #ffffff;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --background: #0e0f14;
+  --surface: #181a22;
+  --surface-raised: #1f222c;
+  --ink: #ede9e2;
+  --muted: #a59e94;
+  --line: #2a2d38;
+  --brand: #f59a3c;
+  --on-brand: #1a0e00;
+  --brand-strong: #ffb45e;
+  --accent-text: #f59a3c;
+  --brand-secondary: #f08a98;
+  --brand-glow: rgb(245 154 60 / 0.2);
+  --panel: #08090c;
+  --panel-ink: #ede9e2;
+  --panel-muted: #8c867d;
+  --panel-line: #1e2028;
+  --success: #6cd49a;
+  --danger: #ff8a80;
+  --overlay: rgb(0 0 0 / 0.65);
+  --shadow-color: rgb(0 0 0 / 0.4);
+  color-scheme: dark;
 }
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-on-brand: var(--on-brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-accent-text: var(--accent-text);
+  --color-brand-secondary: var(--brand-secondary);
+  --color-brand-glow: var(--brand-glow);
+  --color-panel: var(--panel);
+  --color-panel-ink: var(--panel-ink);
+  --color-panel-muted: var(--panel-muted);
+  --color-panel-line: var(--panel-line);
+  --color-panel-success: var(--panel-success);
+  --color-panel-warning: var(--panel-warning);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-whatsapp: var(--whatsapp);
+  --color-on-whatsapp: var(--on-whatsapp);
+  --color-overlay: var(--overlay);
+  --color-on-tone: var(--on-tone);
+
+  --font-display: var(--font-sora), "Segoe UI", system-ui, sans-serif;
+  --font-accent: var(--font-instrument-serif), Georgia, serif;
+  --font-body: var(--font-source-sans), "Segoe UI", system-ui, sans-serif;
+  --font-sans: var(--font-body);
+
+  --shadow-raised: 0 10px 30px var(--shadow-color);
+  --shadow-brand: 0 8px 24px var(--brand-glow);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@theme {
+  --spacing-gutter: clamp(16px, 5vw, 96px);
+  --spacing-section: clamp(64px, 8vw, 120px);
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+
+  --text-display-xl: clamp(2.6rem, 6.2vw, 5.6rem);
+  --text-display-xl--line-height: 1.04;
+  --text-display-xl--letter-spacing: -0.03em;
+  --text-display-lg: clamp(2.2rem, 5vw, 4.2rem);
+  --text-display-lg--line-height: 1.06;
+  --text-display-lg--letter-spacing: -0.025em;
+  --text-display-md: clamp(1.9rem, 3.8vw, 3.2rem);
+  --text-display-md--line-height: 1.08;
+  --text-display-md--letter-spacing: -0.025em;
+  --text-heading-lg: clamp(1.4rem, 2.2vw, 1.9rem);
+  --text-heading-lg--line-height: 1.15;
+  --text-heading-md: clamp(1.15rem, 1.5vw, 1.35rem);
+  --text-heading-md--line-height: 1.2;
+  --text-heading-sm: 1.05rem;
+  --text-heading-sm--line-height: 1.25;
+  --text-stat: clamp(2rem, 4vw, 3.4rem);
+  --text-stat--line-height: 1;
+  --text-body-lg: clamp(1.08rem, 1.3vw, 1.25rem);
+  --text-body-lg--line-height: 1.6;
+  --text-body: 1.0625rem;
+  --text-body--line-height: 1.6;
+  --text-body-sm: 0.9375rem;
+  --text-body-sm--line-height: 1.5;
+  --text-caption: 0.8125rem;
+  --text-caption--line-height: 1.4;
+  --text-eyebrow: 0.78rem;
+  --text-eyebrow--line-height: 1.3;
+  --text-eyebrow--letter-spacing: 0.12em;
+
+  --animate-ring-spin: ring-spin 90s linear infinite;
+  --animate-ring-spin-reverse: ring-spin 60s linear infinite reverse;
+  --animate-brand-brackets-draw: brand-brackets-draw 0.7s ease-out both;
+  --animate-monk-sit-down: monk-sit-down 1.6s ease-in-out both;
+  --animate-monk-legs-fold: monk-legs-fold 1.6s ease-in-out both;
+  --animate-monk-legs-cross: monk-legs-cross 1.6s ease-in-out both;
+  --animate-monk-arms-rest: monk-arms-rest 1.6s ease-in-out both;
+  --animate-monk-arms-lower: monk-arms-lower 1.6s ease-in-out both;
+  --animate-monk-aura: monk-aura 2.8s ease-out 1.7s infinite;
+
+  @keyframes monk-sit-down {
+    0%,
+    45% {
+      transform: translateY(-4px);
+    }
+    85%,
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes monk-legs-fold {
+    0%,
+    45% {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+    75% {
+      transform: scaleY(0.45);
+      opacity: 1;
+    }
+    85%,
+    100% {
+      transform: scaleY(0.3);
+      opacity: 0;
+    }
+  }
+
+  @keyframes monk-legs-cross {
+    0%,
+    70% {
+      transform: scaleX(0.4);
+      opacity: 0;
+    }
+    90%,
+    100% {
+      transform: scaleX(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes monk-arms-lower {
+    0%,
+    60% {
+      opacity: 1;
+    }
+    78%,
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes monk-arms-rest {
+    0%,
+    66% {
+      transform: scaleY(0.4);
+      opacity: 0;
+    }
+    92%,
+    100% {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes monk-aura {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    70%,
+    100% {
+      transform: scale(2.3);
+      opacity: 0;
+    }
+  }
+
+  @keyframes brand-brackets-draw {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes ring-spin {
+    to {
+      transform: rotate(360deg);
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--brand);
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    background-color: var(--brand-glow);
+  }
 }
+
+/* biome-ignore-start lint/complexity/noImportantStyles: reduced motion must override every component animation */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* biome-ignore-end lint/complexity/noImportantStyles: reduced motion must override every component animation */

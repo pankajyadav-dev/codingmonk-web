@@ -1,28 +1,61 @@
 {
   "name": "codingmonk-web",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "biome check",
-    "format": "biome format --write"
+    "dev": "bun --bun next dev",
+    "build": "bun --bun next build",
+    "start": "bun --bun next start",
+    "lint": "bun --bun x biome check",
+    "format": "bun --bun x biome check --write",
+    "typecheck": "bun --bun x tsc --noEmit",
+    "check:content": "bun scripts/check-content.ts",
+    "check:tokens": "bun scripts/check-design-tokens.ts",
+    "check:spelling": "bun --bun x cspell --no-progress --no-summary",
+    "test:unit": "bun test tests/unit",
+    "test:e2e": "bun --bun x playwright test",
+    "test:visual:update": "bun --bun x playwright test visual-regression --update-snapshots",
+    "build:node": "PATH=$HOME/.nvm/versions/node/v24.22.3/bin:$PATH node node_modules/next/dist/bin/next build",
+    "db:generate": "bun --bun x drizzle-kit generate",
+    "db:migrate": "bun --bun x drizzle-kit migrate",
+    "verify": "bun run lint && bun run typecheck && bun run check:content && bun run check:tokens && bun run check:spelling && bun run test:unit && bun run build && bun run test:e2e",
+    "prepare": "bun --bun x lefthook install",
+    "content:sync-youtube": "bun scripts/sync-youtube-availability.ts"
   },
   "dependencies": {
-    "next": "16.4.6",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "@electric-sql/pglite": "^0.5.16",
+    "@hookform/resolvers": "^7.0.6",
+    "@neondatabase/serverless": "^1.2.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.45.4",
+    "lucide-react": "^1.73.0",
+    "next": "^16.4.6",
+    "next-themes": "^0.4.6",
+    "radix-ui": "^1.8.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.92.0",
+    "schema-dts": "^2.1.0",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.2",
-    "@tailwindcss/turbopack": "4.3.3",
-    "@types/node": "^20",
+    "@axe-core/playwright": "^4.14.0",
+    "@biomejs/biome": "^2.6.7",
+    "@playwright/test": "^1.65.1",
+    "@tailwindcss/turbopack": "^4.3.5",
+    "@types/bun": "^1.4.4",
+    "@types/node": "24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
-    "tailwindcss": "4.3.3",
-    "typescript": "^5"
+    "cspell": "^10.5.0",
+    "drizzle-kit": "^0.31.11",
+    "lefthook": "^2.2.2",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2"
   },
   "packageManager": "bun@1.4.4",
   "ignoreScripts": [
@@ -32,5 +65,8 @@
   "trustedDependencies": [
     "sharp",
     "unrs-resolver"
-  ]
+  ],
+  "engines": {
+    "node": "24.x"
+  }
 }

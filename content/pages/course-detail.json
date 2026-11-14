@@ -1,0 +1,21 @@
+{
+  "breadcrumbLabel": "Free courses",
+  "startCourseLabel": "Start course",
+  "continueCourseLabel": "Continue course",
+  "courseContentHeading": "Course content",
+  "lessonCountLabel": "lessons",
+  "lessonPositionLabel": "Lesson {current} of {total}",
+  "previousLessonLabel": "Previous lesson",
+  "nextLessonLabel": "Next lesson",
+  "markCompleteLabel": "Mark as complete",
+  "completedLabel": "Completed",
+  "openOnYoutubeLabel": "Open on YouTube",
+  "playVideoLabel": "Play video: {title}",
+  "openPlaylistLabel": "Open the full playlist on YouTube",
+  "inProgressNotice": "New lessons are still being added to this series.",
+  "progressLabel": "{completed} of {total} done",
+  "lessonDescriptionTemplate": "Lesson {current} of {total} in the free {course} course ({module}). Watch the video and follow along.",
+  "videoUnavailableHeading": "Watch this lesson on YouTube",
+  "videoUnavailableDescription": "This video plays only on YouTube. Open it there, then come back here for the next lesson.",
+  "youtubeOnlyLessonLabel": "Plays on YouTube"
+}

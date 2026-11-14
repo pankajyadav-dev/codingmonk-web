@@ -1,0 +1,52 @@
+{
+  "quotes": [
+    {
+      "quote": "Our 2026 batch had mock interviews done before the first company even visited. The weekly progress updates made planning simple.",
+      "personName": "Dr. A. Rao",
+      "designation": "Training & Placement Officer",
+      "collegeName": "Sample Institute of Technology"
+    },
+    {
+      "quote": "We started with one pilot batch in CSE. The next year we rolled it out to four departments.",
+      "personName": "Prof. S. Iyer",
+      "designation": "Dean",
+      "collegeName": "Sample College of Engineering"
+    },
+    {
+      "quote": "Students actually finish the projects, because the trainers are the same people they watch on YouTube.",
+      "personName": "Ms. P. Shah",
+      "designation": "Placement Coordinator",
+      "collegeName": "Sample University"
+    }
+  ],
+  "studentStories": [
+    {
+      "studentName": "Aarav S.",
+      "headline": "From a tier-3 college to a product company",
+      "durationLabel": "1:42",
+      "youtubeVideoId": null,
+      "tone": "saffron"
+    },
+    {
+      "studentName": "Diya R.",
+      "headline": "My deployed project got me the interview",
+      "durationLabel": "2:05",
+      "youtubeVideoId": null,
+      "tone": "maroon"
+    },
+    {
+      "studentName": "Karthik M.",
+      "headline": "ECE to full-stack developer in one year",
+      "durationLabel": "1:18",
+      "youtubeVideoId": null,
+      "tone": "ember"
+    },
+    {
+      "studentName": "Sneha P.",
+      "headline": "How the mock interviews helped",
+      "durationLabel": "2:31",
+      "youtubeVideoId": null,
+      "tone": "ink"
+    }
+  ]
+}

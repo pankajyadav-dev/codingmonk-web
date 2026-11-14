@@ -1,0 +1,40 @@
+{
+  "seo": {
+    "title": "Privacy Policy | CodingMonk",
+    "description": "How CodingMonk collects and uses the information you share through this website."
+  },
+  "eyebrow": "Privacy",
+  "heading": "Privacy *policy*",
+  "lastUpdated": "2026-11-14",
+  "lastUpdatedLabel": "Last updated",
+  "sections": [
+    {
+      "heading": "What we collect",
+      "paragraphs": [
+        "When you book a demo, we collect the details you enter: your name, designation, college, city, state, phone number, email and anything you write in the message box.",
+        "We also store a one-way hash of your network address to prevent spam. We cannot recover your address from it."
+      ]
+    },
+    {
+      "heading": "How we use it",
+      "paragraphs": [
+        "We use your details only to respond to your request: to call, email or message you on WhatsApp about placement training for your college.",
+        "We do not sell your details or share them with other companies for marketing."
+      ]
+    },
+    {
+      "heading": "Course progress",
+      "paragraphs": ["Your progress in the free courses is saved only in your own browser. It is never sent to us."]
+    },
+    {
+      "heading": "Your choices",
+      "paragraphs": [
+        "You can ask us to correct or delete your details at any time by writing to the email address below. This policy follows India's Digital Personal Data Protection Act, 2023."
+      ]
+    },
+    {
+      "heading": "Contact",
+      "paragraphs": ["For any privacy question, email us at the address shown on the Book a demo page."]
+    }
+  ]
+}

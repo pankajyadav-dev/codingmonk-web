@@ -1,0 +1,38 @@
+[
+  {
+    "label": "On campus",
+    "title": "Trainers in your classrooms",
+    "description": "Hands-on sessions run by developers who build what they teach, using the same projects as the CodingMonk channel.",
+    "variant": "feature"
+  },
+  {
+    "label": "Assessments",
+    "title": "Weekly contests and mock tests",
+    "description": "Coding contests, aptitude rounds and company-pattern mock tests with scores for every student.",
+    "variant": "standard"
+  },
+  {
+    "label": "Reports",
+    "title": "Batch-wise progress for the TPO",
+    "description": "Attendance, scores and mock interview feedback, shared with the placement cell every week.",
+    "variant": "standard"
+  },
+  {
+    "label": "Free for students",
+    "title": "126 video lessons",
+    "description": "Project courses on YouTube between sessions.",
+    "variant": "highlight"
+  },
+  {
+    "label": "Projects",
+    "title": "Resume-grade projects",
+    "description": "Full-stack and AI-powered apps that students deploy and show recruiters.",
+    "variant": "standard"
+  },
+  {
+    "label": "Interviews",
+    "title": "Mock interviews and GD",
+    "description": "Technical and HR mock interviews with written feedback, plus group discussion practice.",
+    "variant": "standard"
+  }
+]

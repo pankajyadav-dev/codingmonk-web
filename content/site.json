@@ -1,0 +1,32 @@
+{
+  "name": "CodingMonk",
+  "legalName": "CodingMonk",
+  "tagline": "Placement training partner for engineering colleges across India",
+  "description": "CodingMonk runs on-campus placement training for engineering colleges across India: a 2-month sprint for final-year students and a 6-month program for pre-final year students, with AI used the way the industry uses it today.",
+  "locale": "en_IN",
+  "language": "en-IN",
+  "contact": {
+    "email": "hello@your-domain.in",
+    "phoneDisplay": "+91 00000 00000",
+    "phoneInternational": "+910000000000",
+    "whatsappNumber": "910000000000",
+    "officeHours": "Mon–Sat, 10 am – 7 pm IST"
+  },
+  "youtubeChannel": {
+    "name": "CodingMonk by Shreyansh",
+    "url": "https://www.youtube.com/@coding-monk"
+  },
+  "socialLinks": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@coding-monk"
+    }
+  ],
+  "whatsappGreeting": "Hi CodingMonk, I'd like to know about placement training for our college.",
+  "copyrightStartYear": 2026,
+  "sampleDataNotice": "Sample data for review. Replace before launch.",
+  "wordmark": {
+    "lead": "Coding",
+    "accent": "Monk"
+  }
+}

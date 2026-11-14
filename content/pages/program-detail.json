@@ -1,0 +1,33 @@
+{
+  "seoTitleSuffix": "| CodingMonk Programs",
+  "breadcrumbLabel": "Programs",
+  "coreProgramLabel": "Core program",
+  "addOnLabel": "Add-on",
+  "curriculumEyebrow": "Curriculum",
+  "curriculumHeading": "What students *learn*",
+  "aiPracticeLabel": "How AI is used",
+  "factsHeading": "Program facts",
+  "factLabels": {
+    "audience": "For",
+    "eligibility": "Eligibility",
+    "duration": "Duration",
+    "delivery": "Delivery",
+    "assessments": "Assessments",
+    "certificate": "Certificate",
+    "tools": "Tools"
+  },
+  "hoursUnit": "hours",
+  "primaryCta": { "label": "Run this program at your college", "href": "/book-demo#demo-form" },
+  "secondaryCta": { "label": "Request a proposal", "href": "/book-demo?request=proposal#demo-form" },
+  "tracksEyebrow": "Tracks",
+  "tracksHeading": "Prepared for both *company types*",
+  "relatedEyebrow": "More programs",
+  "relatedHeading": "Other *programs*",
+  "ctaBand": {
+    "eyebrow": "Get started",
+    "heading": "Start with one *pilot batch.*",
+    "description": "A 30-minute call with a founder, then a free skill check and trainer demo on your campus.",
+    "primaryCta": { "label": "Book a campus demo", "href": "/book-demo#demo-form" },
+    "secondaryCta": { "label": "Request a proposal", "href": "/book-demo?request=proposal#demo-form" }
+  }
+}

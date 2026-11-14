@@ -1,0 +1,1196 @@
+[
+  {
+    "slug": "modern-react-chat-app",
+    "title": "Modern React Chat App: Build & Deploy",
+    "summary": "Build a full-stack chat app with one-to-one and group chat, friends, auth with email verification, and voice and video calls, then deploy it.",
+    "level": "Intermediate",
+    "seriesStatus": "complete",
+    "techStack": ["React", "Node.js", "Express", "MongoDB", "Socket.io", "WebRTC"],
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLdLUE-L26MMbXYkddCi6Cb1jy5dKczosk",
+    "modules": [
+      {
+        "title": "Frontend UI",
+        "lessons": [
+          {
+            "slug": "part-1",
+            "title": "Part 1",
+            "youtubeVideoId": "bSbHeUrUPwQ",
+            "durationSeconds": 3409,
+            "publishedOn": "2022-10-19",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-2",
+            "title": "Part 2",
+            "youtubeVideoId": "2XqNhraUdek",
+            "durationSeconds": 2057,
+            "publishedOn": "2022-10-28",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-3",
+            "title": "Part 3",
+            "youtubeVideoId": "pSpVesPELbs",
+            "durationSeconds": 1827,
+            "publishedOn": "2022-11-01",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-4",
+            "title": "Part 4",
+            "youtubeVideoId": "g4Z-kRkWnU0",
+            "durationSeconds": 2962,
+            "publishedOn": "2022-11-04",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-5",
+            "title": "Part 5",
+            "youtubeVideoId": "4K4OmnNxhe0",
+            "durationSeconds": 2042,
+            "publishedOn": "2022-11-07",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-6",
+            "title": "Part 6",
+            "youtubeVideoId": "edLPFaILw68",
+            "durationSeconds": 3822,
+            "publishedOn": "2022-11-13",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-7",
+            "title": "Part 7",
+            "youtubeVideoId": "fV5qRyU1z40",
+            "durationSeconds": 2147,
+            "publishedOn": "2022-11-22",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-8",
+            "title": "Part 8",
+            "youtubeVideoId": "Nd37NWnTG2Y",
+            "durationSeconds": 2558,
+            "publishedOn": "2022-12-20",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-9",
+            "title": "Part 9",
+            "youtubeVideoId": "fjFO7x9LyEY",
+            "durationSeconds": 3414,
+            "publishedOn": "2022-12-27",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-10",
+            "title": "Part 10",
+            "youtubeVideoId": "DExLWtoLxls",
+            "durationSeconds": 2735,
+            "publishedOn": "2023-01-05",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-11-group-chat",
+            "title": "Part 11: Group Chat",
+            "youtubeVideoId": "g51dHiNzTH0",
+            "durationSeconds": 2626,
+            "publishedOn": "2023-01-17",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-12-group-creation-calling",
+            "title": "Part 12: Group Creation & calling",
+            "youtubeVideoId": "SxzVk2ZteSY",
+            "durationSeconds": 2166,
+            "publishedOn": "2023-01-19",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-13-calling-feature",
+            "title": "Part 13: Calling Feature",
+            "youtubeVideoId": "c2yJpuD1ZvE",
+            "durationSeconds": 2736,
+            "publishedOn": "2023-01-20",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-14-user-profile-navigation-auth-guard",
+            "title": "Part 14: User Profile, Navigation & Auth Guard",
+            "youtubeVideoId": "fbJto3tn9og",
+            "durationSeconds": 2596,
+            "publishedOn": "2023-01-21",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "Backend and Auth APIs",
+        "lessons": [
+          {
+            "slug": "part-15-setting-up-backend",
+            "title": "Part 15: Setting Up Backend",
+            "youtubeVideoId": "FBqsEZtA3dk",
+            "durationSeconds": 2260,
+            "publishedOn": "2023-01-22",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-16-auth-apis",
+            "title": "Part 16: Auth APIs",
+            "youtubeVideoId": "sC95vyKQb2g",
+            "durationSeconds": 3191,
+            "publishedOn": "2023-01-23",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-17-auth-user-apis",
+            "title": "Part 17: Auth & User APIs",
+            "youtubeVideoId": "bVGTbw8G1Oc",
+            "durationSeconds": 2997,
+            "publishedOn": "2023-01-25",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-18-auth-apis",
+            "title": "Part 18: Auth APIs",
+            "youtubeVideoId": "yXxUpFOSD9U",
+            "durationSeconds": 3325,
+            "publishedOn": "2023-01-26",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-19-mailer-routing",
+            "title": "Part 19: Mailer & Routing",
+            "youtubeVideoId": "3D-1JJ5E-aQ",
+            "durationSeconds": 2906,
+            "publishedOn": "2023-01-27",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-20-testing-apis-using-postman",
+            "title": "Part 20: Testing APIs using Postman",
+            "youtubeVideoId": "uzkNTsLuT70",
+            "durationSeconds": 1819,
+            "publishedOn": "2023-01-30",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "Connecting frontend to backend",
+        "lessons": [
+          {
+            "slug": "part-21-integrating-auth-apis",
+            "title": "Part 21: Integrating Auth APIs",
+            "youtubeVideoId": "i_lxTdyvCfs",
+            "durationSeconds": 1881,
+            "publishedOn": "2023-02-01",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-22-integrating-auth-apis",
+            "title": "Part 22: Integrating Auth APIs",
+            "youtubeVideoId": "uya9KJG2OwU",
+            "durationSeconds": 2048,
+            "publishedOn": "2023-02-04",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-23-integrating-register-sign-up-apis",
+            "title": "Part 23: Integrating Register/Sign up APIs",
+            "youtubeVideoId": "VJk1nfjJWl8",
+            "durationSeconds": 3256,
+            "publishedOn": "2023-02-08",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-24-adding-snackbar",
+            "title": "Part 24: Adding Snackbar",
+            "youtubeVideoId": "RdsCrr10KiQ",
+            "durationSeconds": 1406,
+            "publishedOn": "2023-02-19",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-25-setting-up-socket-io",
+            "title": "Part 25: Setting Up Socket.io",
+            "youtubeVideoId": "TAV-cfAhsMQ",
+            "durationSeconds": 1795,
+            "publishedOn": "2023-02-24",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-26-setting-up-friends-feature",
+            "title": "Part 26: Setting up friends feature",
+            "youtubeVideoId": "wmoZvo2Zy9k",
+            "durationSeconds": 2489,
+            "publishedOn": "2023-02-25",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-27-setting-up-event-listeners-emitters",
+            "title": "Part 27: Setting up Event Listeners/ Emitters",
+            "youtubeVideoId": "qgwR2xpphyk",
+            "durationSeconds": 2058,
+            "publishedOn": "2023-02-27",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "Messaging, calls and deployment",
+        "lessons": [
+          {
+            "slug": "part-28-setting-up-backend-for-messaging",
+            "title": "Part 28: Setting up Backend For Messaging",
+            "youtubeVideoId": "dTyouL7PYuY",
+            "durationSeconds": 1338,
+            "publishedOn": "2023-03-02",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-29-setting-up-frontend-for-messaging",
+            "title": "Part 29: Setting up Frontend For Messaging",
+            "youtubeVideoId": "99YRMkWuo0c",
+            "durationSeconds": 1921,
+            "publishedOn": "2023-03-03",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-30-building-chat-list",
+            "title": "Part 30: Building Chat List",
+            "youtubeVideoId": "3g5EB04TtMA",
+            "durationSeconds": 2382,
+            "publishedOn": "2023-03-05",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-31-one-to-one-messaging",
+            "title": "Part 31: One to One Messaging",
+            "youtubeVideoId": "zeSIFBebNOw",
+            "durationSeconds": 1714,
+            "publishedOn": "2023-03-07",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-32-implementing-voice-call",
+            "title": "Part 32: Implementing Voice call",
+            "youtubeVideoId": "smUOyeGWwn8",
+            "durationSeconds": 752,
+            "publishedOn": "2023-03-25",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-33-handling-socket-events-for-voice-call",
+            "title": "Part 33: Handling Socket Events For Voice call",
+            "youtubeVideoId": "Q2ticoUH470",
+            "durationSeconds": 446,
+            "publishedOn": "2023-03-27",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-34-handling-video-call-chat-deploying-app",
+            "title": "Part 34: Handling Video call, Chat & Deploying App",
+            "youtubeVideoId": "LPV0gCxzn00",
+            "durationSeconds": 4070,
+            "publishedOn": "2023-04-01",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "Bonus: single-video chat builds",
+        "lessons": [
+          {
+            "slug": "build-a-modern-react-chat-app-with-socket-io-webrtc-mern-stack-tutoria",
+            "title": "Build a Modern React Chat App with Socket.io & WebRTC | MERN Stack Tutorial",
+            "youtubeVideoId": "17slAkj0yQs",
+            "durationSeconds": 2898,
+            "publishedOn": "2024-03-15",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "react-chat-app-fullstack-mern-project-tailwind-part-1",
+            "title": "React Chat App | Fullstack | MERN PROJECT | TAILWIND | Part 1",
+            "youtubeVideoId": "hePyndhhffc",
+            "durationSeconds": 949,
+            "publishedOn": "2024-06-11",
+            "canPlayOnWebsite": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chati-enterprise-chat-app",
+    "title": "Chati: Enterprise Chat App (MERN)",
+    "summary": "A production-style chat platform with media messages, audio and video calls, profiles, a full backend and Redux state management.",
+    "level": "Advanced",
+    "seriesStatus": "complete",
+    "techStack": ["React", "Redux Toolkit", "Node.js", "MongoDB", "Socket.io"],
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLdLUE-L26MMba2l6JL5Cww_R7aRmDjl5G",
+    "modules": [
+      {
+        "title": "Frontend build",
+        "lessons": [
+          {
+            "slug": "building-enterprise-chat-app-mern-stack-fullstack-project",
+            "title": "Building Enterprise Chat App | MERN Stack | Fullstack Project",
+            "youtubeVideoId": "jaReSV3O8Ck",
+            "durationSeconds": 35321,
+            "publishedOn": "2024-09-28",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-media-msg-audio-video-call",
+            "title": "Building Media Msg & Audio Video Call",
+            "youtubeVideoId": "yF5OVC1jMsk",
+            "durationSeconds": 4328,
+            "publishedOn": "2024-09-29",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-profile-section-setting-up-routes",
+            "title": "Building Profile Section & Setting up Routes",
+            "youtubeVideoId": "f3jSZo90cfE",
+            "durationSeconds": 3192,
+            "publishedOn": "2024-09-29",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-profile-update-password-form",
+            "title": "Building Profile & Update Password Form",
+            "youtubeVideoId": "TmBQfFbVeiI",
+            "durationSeconds": 3198,
+            "publishedOn": "2024-09-29",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "Backend, sockets and Auth APIs",
+        "lessons": [
+          {
+            "slug": "setting-up-backend-auth-apis",
+            "title": "Setting up backend & Auth APIs",
+            "youtubeVideoId": "fbSBDHB0TDI",
+            "durationSeconds": 2782,
+            "publishedOn": "2024-10-01",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "setting-up-socket-server-auth-apis",
+            "title": "Setting up socket server & Auth APIs",
+            "youtubeVideoId": "LteB16ZMj58",
+            "durationSeconds": 2737,
+            "publishedOn": "2024-10-01",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-auth-apis",
+            "title": "Building Auth APIs",
+            "youtubeVideoId": "Ju3qPjVPM1I",
+            "durationSeconds": 3983,
+            "publishedOn": "2024-10-02",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-backend-lesson-8",
+            "title": "Building backend (Lesson 8)",
+            "youtubeVideoId": "3gbw7x_FpOo",
+            "durationSeconds": 3386,
+            "publishedOn": "2024-10-07",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-backend-lesson-9",
+            "title": "Building backend (Lesson 9)",
+            "youtubeVideoId": "ySVZIyUAJls",
+            "durationSeconds": 4145,
+            "publishedOn": "2024-10-07",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-backend-lesson-10",
+            "title": "Building backend (Lesson 10)",
+            "youtubeVideoId": "D3q1cn0cPUE",
+            "durationSeconds": 1955,
+            "publishedOn": "2024-10-08",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-backend-lesson-11",
+            "title": "Building backend (Lesson 11)",
+            "youtubeVideoId": "LXVLcS5Nuek",
+            "durationSeconds": 2175,
+            "publishedOn": "2024-10-08",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-backend-lesson-12",
+            "title": "Building backend (Lesson 12)",
+            "youtubeVideoId": "AU1rGVuc0PU",
+            "durationSeconds": 1132,
+            "publishedOn": "2024-10-08",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "State management and integration",
+        "lessons": [
+          {
+            "slug": "managing-state-of-app-using-redux",
+            "title": "Managing State of App using Redux",
+            "youtubeVideoId": "8GhjjeP-dMo",
+            "durationSeconds": 1785,
+            "publishedOn": "2024-10-08",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "creating-auth-slice",
+            "title": "Creating Auth Slice",
+            "youtubeVideoId": "g9lWO3eqMJQ",
+            "durationSeconds": 1731,
+            "publishedOn": "2024-10-17",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "handling-login-form",
+            "title": "Handling Login form",
+            "youtubeVideoId": "yLEhVULKg_4",
+            "durationSeconds": 1472,
+            "publishedOn": "2024-10-17",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "handling-signup-form",
+            "title": "Handling Signup form",
+            "youtubeVideoId": "uNOLfrC1rZ0",
+            "durationSeconds": 1053,
+            "publishedOn": "2024-10-17",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "fixing-bugs-integrating-verify-email-form",
+            "title": "Fixing Bugs & Integrating Verify Email Form",
+            "youtubeVideoId": "xAHHFRyfNLw",
+            "durationSeconds": 4221,
+            "publishedOn": "2024-10-17",
+            "canPlayOnWebsite": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "webrtc-video-call-app",
+    "title": "WebRTC Video Call App from Scratch",
+    "summary": "Learn how WebRTC works (signalling, STUN, TURN, SDP, ICE), then build a mesh video-call app with React, Redux and Socket.io in short lessons.",
+    "level": "Intermediate",
+    "seriesStatus": "in-progress",
+    "techStack": ["WebRTC", "React", "Redux", "Socket.io", "Node.js"],
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLdLUE-L26MMb2673ok5dAkrwOg3zWXBTv",
+    "modules": [
+      {
+        "title": "How WebRTC works",
+        "lessons": [
+          {
+            "slug": "intro-to-series",
+            "title": "Intro to series",
+            "youtubeVideoId": "90ihZVVsFdI",
+            "durationSeconds": 286,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "what-is-mesh-architecture",
+            "title": "What is Mesh Architecture",
+            "youtubeVideoId": "G6efyT0SBVo",
+            "durationSeconds": 369,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "how-webrtc-works-behind-the-scenes",
+            "title": "How webRTC works behind the scenes",
+            "youtubeVideoId": "ucYxO8-Tuu8",
+            "durationSeconds": 283,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "signalling-server",
+            "title": "Signalling server",
+            "youtubeVideoId": "21JTaL9tDDY",
+            "durationSeconds": 148,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "stun-server",
+            "title": "STUN Server",
+            "youtubeVideoId": "AsSaerOCbD4",
+            "durationSeconds": 118,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "what-is-sdp-information",
+            "title": "What is SDP Information",
+            "youtubeVideoId": "KZniHbw_brg",
+            "durationSeconds": 251,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "what-is-turn-server",
+            "title": "What is TURN Server",
+            "youtubeVideoId": "OS0u37rbcTA",
+            "durationSeconds": 163,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "what-are-ice-candidates",
+            "title": "What are ICE Candidates",
+            "youtubeVideoId": "WIBxiyeh4XQ",
+            "durationSeconds": 272,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "Project setup",
+        "lessons": [
+          {
+            "slug": "node-js-installation",
+            "title": "Node.js Installation",
+            "youtubeVideoId": "i2oO5KgVreM",
+            "durationSeconds": 83,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "creating-server-installing-dependencies",
+            "title": "Creating Server & Installing Dependencies",
+            "youtubeVideoId": "gtCXw11JLYI",
+            "durationSeconds": 240,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "initialising-basic-server-logic",
+            "title": "Initialising Basic Server Logic",
+            "youtubeVideoId": "eBgbC11wxfA",
+            "durationSeconds": 438,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "scaffolding-react-js-app",
+            "title": "Scaffolding React.js App",
+            "youtubeVideoId": "Fw8KYnUznpw",
+            "durationSeconds": 252,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-pages-setting-up-routing",
+            "title": "Creating Pages & Setting up routing",
+            "youtubeVideoId": "6mnNwiAk0kU",
+            "durationSeconds": 281,
+            "canPlayOnWebsite": false
+          }
+        ]
+      },
+      {
+        "title": "Building the UI",
+        "lessons": [
+          {
+            "slug": "creating-intro-page",
+            "title": "Creating Intro Page",
+            "youtubeVideoId": "2LM1QaqUyKU",
+            "durationSeconds": 799,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-join-page",
+            "title": "Creating Join Page",
+            "youtubeVideoId": "iD9rD5PYxec",
+            "durationSeconds": 681,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-room-page-layout",
+            "title": "Creating room page layout",
+            "youtubeVideoId": "ZqR3sxWL_74",
+            "durationSeconds": 200,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-room-label",
+            "title": "Creating room label",
+            "youtubeVideoId": "KOG626904Cg",
+            "durationSeconds": 382,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-participants-section",
+            "title": "Creating participants section",
+            "youtubeVideoId": "_pKWwgr-TRY",
+            "durationSeconds": 582,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-video-controls",
+            "title": "Creating video controls",
+            "youtubeVideoId": "Wsl0NS7qrZk",
+            "durationSeconds": 316,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "microphone-button",
+            "title": "Microphone Button",
+            "youtubeVideoId": "9upyG71twms",
+            "durationSeconds": 444,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "camera-button",
+            "title": "Camera Button",
+            "youtubeVideoId": "y9XobdiejD4",
+            "durationSeconds": 140,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "screen-share-button",
+            "title": "Screen Share Button",
+            "youtubeVideoId": "fsG37OcVo20",
+            "durationSeconds": 121,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "hang-up-button",
+            "title": "Hang up Button",
+            "youtubeVideoId": "TENa1xHmwJg",
+            "durationSeconds": 224,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "fixing-scroll-issue",
+            "title": "Fixing Scroll issue",
+            "youtubeVideoId": "S_-EXbTw2aM",
+            "durationSeconds": 166,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "adding-theme",
+            "title": "Adding theme",
+            "youtubeVideoId": "esMJtzYT6ek",
+            "durationSeconds": 344,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "toggle-theme-button",
+            "title": "Toggle Theme Button",
+            "youtubeVideoId": "OX3MbH5SE2M",
+            "durationSeconds": 621,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "adding-navigation-to-intro-page-buttons",
+            "title": "Adding Navigation to Intro Page Buttons",
+            "youtubeVideoId": "KiCGp2PlDaw",
+            "durationSeconds": 234,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "adding-controlled-inputs",
+            "title": "Adding Controlled Inputs",
+            "youtubeVideoId": "Kriz0A2WGhs",
+            "durationSeconds": 220,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "managing-user-role",
+            "title": "Managing user role",
+            "youtubeVideoId": "yVE6q3Z3T_c",
+            "durationSeconds": 259,
+            "publishedOn": "2024-04-16",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "State with Redux",
+        "lessons": [
+          {
+            "slug": "setting-up-redux-store",
+            "title": "Setting up redux store",
+            "youtubeVideoId": "Hmfiouqx6dY",
+            "durationSeconds": 631,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-app-slice",
+            "title": "Creating app slice",
+            "youtubeVideoId": "AoB9aDZTL2U",
+            "durationSeconds": 230,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "setting-roomid-in-store",
+            "title": "Setting roomID in store",
+            "youtubeVideoId": "iEcxGAb2p1A",
+            "durationSeconds": 339,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "visualising-redux-store",
+            "title": "Visualising Redux store",
+            "youtubeVideoId": "95ldVBN8XXc",
+            "durationSeconds": 235,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "customising-join-page",
+            "title": "Customising Join Page",
+            "youtubeVideoId": "mk5TT6NLKVA",
+            "durationSeconds": 299,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "cancel-join-button",
+            "title": "Cancel Join Button",
+            "youtubeVideoId": "YRobXsEmeAk",
+            "durationSeconds": 130,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "checking-if-room-exists",
+            "title": "Checking if room exists",
+            "youtubeVideoId": "wqSTvn2P9d0",
+            "durationSeconds": 397,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-join-room-handler",
+            "title": "Creating Join Room Handler",
+            "youtubeVideoId": "VUP_zewFrYU",
+            "durationSeconds": 312,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "making-api-call-handling-error",
+            "title": "Making API call & handling error",
+            "youtubeVideoId": "kOyk3otDQOM",
+            "durationSeconds": 533,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "storing-name-and-meeting-id-in-redux-store",
+            "title": "Storing name and meeting ID in redux store",
+            "youtubeVideoId": "ylLsUohxHCQ",
+            "durationSeconds": 277,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "testing-host-join-room",
+            "title": "Testing host & join room",
+            "youtubeVideoId": "l2vlQrIUdHA",
+            "durationSeconds": 224,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "storing-thememode-in-redux-store",
+            "title": "Storing themeMode in redux store",
+            "youtubeVideoId": "GNEyZLcNuIk",
+            "durationSeconds": 388,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "storing-connect-only-with-audio-preference",
+            "title": "Storing connect only with audio preference",
+            "youtubeVideoId": "cdBbTZeun8s",
+            "durationSeconds": 255,
+            "canPlayOnWebsite": false
+          }
+        ]
+      },
+      {
+        "title": "Connecting to the room",
+        "lessons": [
+          {
+            "slug": "preparing-for-room-connection",
+            "title": "Preparing for room connection",
+            "youtubeVideoId": "1ACr6TKfhzw",
+            "durationSeconds": 423,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "getting-local-stream",
+            "title": "Getting Local Stream",
+            "youtubeVideoId": "E71WndA7tw4",
+            "durationSeconds": 295,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-loading-overlay",
+            "title": "Creating loading overlay",
+            "youtubeVideoId": "cs7PE9GBwBQ",
+            "durationSeconds": 504,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-connection-with-socket-io-server",
+            "title": "Creating connection with Socket.io server",
+            "youtubeVideoId": "Hawx05fl13w",
+            "durationSeconds": 285,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "connecting-to-socket-io-server-from-client-side",
+            "title": "Connecting to socket.io server from client side",
+            "youtubeVideoId": "s5a8W2pB468",
+            "durationSeconds": 167,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "emitting-an-event-to-server-to-create-new-room",
+            "title": "Emitting an event to server to create new room",
+            "youtubeVideoId": "Ten4V5pvw40",
+            "durationSeconds": 315,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "testing-event-emitted-for-creating-new-room",
+            "title": "Testing event emitted for creating new room",
+            "youtubeVideoId": "9jBqErtj97g",
+            "durationSeconds": 102,
+            "canPlayOnWebsite": false
+          },
+          {
+            "slug": "creating-create-new-room-handler",
+            "title": "Creating create new room handler",
+            "youtubeVideoId": "ZYU5CWULG4M",
+            "durationSeconds": 358,
+            "canPlayOnWebsite": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "mern-customer-support-chat",
+    "title": "MERN Customer Support Chat App",
+    "summary": "Start a customer-support chat product on the MERN stack: project setup and authentication.",
+    "level": "Beginner",
+    "seriesStatus": "in-progress",
+    "techStack": ["MongoDB", "Express", "React", "Node.js"],
+    "youtubePlaylistUrl": "https://www.youtube.com/playlist?list=PLdLUE-L26MMYf_GcGBgF6SfQGKpQ3v1Tb",
+    "modules": [
+      {
+        "title": "Getting started",
+        "lessons": [
+          {
+            "slug": "intro-part-1",
+            "title": "Intro | Part 1",
+            "youtubeVideoId": "D5KzIxhaOQw",
+            "durationSeconds": 305,
+            "publishedOn": "2025-07-01",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "initializing-mern-app-part-2",
+            "title": "Initializing MERN APP | Part 2",
+            "youtubeVideoId": "gFhqs0NMIOs",
+            "durationSeconds": 2054,
+            "publishedOn": "2025-07-08",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "understanding-auth-part-3",
+            "title": "Understanding Auth | Part 3",
+            "youtubeVideoId": "oRWogv3RLAg",
+            "durationSeconds": 2105,
+            "publishedOn": "2025-07-09",
+            "canPlayOnWebsite": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hotel-booking-app",
+    "title": "Hotel Booking App with Admin Panel",
+    "summary": "Recorded live builds of a MERN hotel booking app with an admin panel and authentication.",
+    "level": "Intermediate",
+    "seriesStatus": "in-progress",
+    "techStack": ["MongoDB", "Express", "React", "Node.js"],
+    "youtubePlaylistUrl": null,
+    "modules": [
+      {
+        "title": "Live build sessions",
+        "lessons": [
+          {
+            "slug": "part-1",
+            "title": "Part 1",
+            "youtubeVideoId": "czw68Kcmdb8",
+            "durationSeconds": 4769,
+            "publishedOn": "2024-09-28",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-2",
+            "title": "Part 2",
+            "youtubeVideoId": "l0FqAQWy0lk",
+            "durationSeconds": 2458,
+            "publishedOn": "2024-09-29",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-3-building-auth",
+            "title": "Part 3: Building Auth",
+            "youtubeVideoId": "oos6FPUwqcE",
+            "durationSeconds": 2381,
+            "publishedOn": "2024-09-30",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "part-4-building-auth",
+            "title": "Part 4: Building Auth",
+            "youtubeVideoId": "VYnNgL2Knr4",
+            "durationSeconds": 1785,
+            "publishedOn": "2024-10-02",
+            "canPlayOnWebsite": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "airbnb-clone",
+    "title": "Airbnb Clone in React",
+    "summary": "A long-form portfolio project: build the Airbnb frontend, then the property page.",
+    "level": "Intermediate",
+    "seriesStatus": "in-progress",
+    "techStack": ["React", "MERN"],
+    "youtubePlaylistUrl": null,
+    "modules": [
+      {
+        "title": "Build the clone",
+        "lessons": [
+          {
+            "slug": "react-project-for-portfolio-airbnb-clone-frontend-part-1",
+            "title": "React project for portfolio | Airbnb Clone | Frontend | Part 1",
+            "youtubeVideoId": "g58kdiFnREQ",
+            "durationSeconds": 16059,
+            "publishedOn": "2024-01-10",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "making-property-page-react-project-airbnb-clone-mern-part-2",
+            "title": "Making Property Page | React Project | Airbnb clone | MERN | Part 2",
+            "youtubeVideoId": "Q8RQ5bIIiOo",
+            "durationSeconds": 1726,
+            "publishedOn": "2024-01-13",
+            "canPlayOnWebsite": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "mern-tour-app",
+    "title": "MERN Tour App with Material UI",
+    "summary": "Set up a custom Material UI theme and typography for a MERN tour-booking app.",
+    "level": "Beginner",
+    "seriesStatus": "in-progress",
+    "techStack": ["React", "Material UI", "MERN"],
+    "youtubePlaylistUrl": null,
+    "modules": [
+      {
+        "title": "Theme and typography",
+        "lessons": [
+          {
+            "slug": "mern-stack-tour-app-project-mui-theme-part-1",
+            "title": "MERN STACK TOUR APP PROJECT | MUI THEME | PART 1",
+            "youtubeVideoId": "CkzJJV-0dHI",
+            "durationSeconds": 908,
+            "publishedOn": "2024-02-16",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "mern-stack-tour-app-project-mui-theme-part-2",
+            "title": "MERN STACK TOUR APP PROJECT | MUI THEME | PART 2",
+            "youtubeVideoId": "qeFgaE-s-EA",
+            "durationSeconds": 862,
+            "publishedOn": "2024-02-20",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "mern-stack-tour-app-project-mui-typography-part-3",
+            "title": "MERN STACK TOUR APP PROJECT | MUI TYPOGRAPHY | PART 3",
+            "youtubeVideoId": "alJMnP-LGzg",
+            "durationSeconds": 792,
+            "publishedOn": "2024-02-21",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "mern-stack-tour-app-project-mui-theme-part-4",
+            "title": "MERN STACK TOUR APP PROJECT | MUI THEME | PART 4",
+            "youtubeVideoId": "o_WlwULzSF0",
+            "durationSeconds": 758,
+            "publishedOn": "2024-02-21",
+            "canPlayOnWebsite": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "react-ui-essentials",
+    "title": "React UI Essentials",
+    "summary": "Material UI basics and layouts, a dashboard, React Hook Form, and two landing-page and storefront builds.",
+    "level": "Beginner",
+    "seriesStatus": "complete",
+    "techStack": ["React", "Material UI", "React Hook Form", "Tailwind CSS"],
+    "youtubePlaylistUrl": null,
+    "modules": [
+      {
+        "title": "Material UI",
+        "lessons": [
+          {
+            "slug": "mastering-material-ui-a-beginner-s-guide-to-basics-and-layouts",
+            "title": "Mastering Material UI: A Beginner's Guide to Basics and Layouts",
+            "youtubeVideoId": "9cAGwHe9mdk",
+            "durationSeconds": 2258,
+            "publishedOn": "2023-12-13",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "building-a-sleek-sass-dashboard-with-mui-reactjs-step-by-step-tutorial",
+            "title": "Building a Sleek Sass Dashboard with MUI & ReactJS: Step-by-Step Tutorial",
+            "youtubeVideoId": "1FC9aSXH5sI",
+            "durationSeconds": 232,
+            "publishedOn": "2023-12-11",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "Forms",
+        "lessons": [
+          {
+            "slug": "master-react-hook-form-for-efficient-form-handling-tutorial-with-start",
+            "title": "Master React Hook Form for Efficient Form Handling | Tutorial with Starter Code Part - 1",
+            "youtubeVideoId": "Vm-OHeiUNvI",
+            "durationSeconds": 1958,
+            "publishedOn": "2023-06-27",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "Page builds",
+        "lessons": [
+          {
+            "slug": "responsive-investment-platform-landing-page-react-material-ui",
+            "title": "Responsive Investment Platform Landing Page | React | Material UI",
+            "youtubeVideoId": "yNfrDJErYAo",
+            "durationSeconds": 2004,
+            "publishedOn": "2024-03-07",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "build-complete-e-commerce-website-with-react-tailwind-css-2025-figma-s",
+            "title": "Build Complete E-Commerce Website with React & Tailwind CSS 2025 | Figma + Source Code",
+            "youtubeVideoId": "f2_-855NXD0",
+            "durationSeconds": 433,
+            "publishedOn": "2025-09-24",
+            "canPlayOnWebsite": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "developer-essentials",
+    "title": "Developer Essentials: TypeScript & Docker",
+    "summary": "Get started with TypeScript (with notes) and Docker, two tools every full-stack developer needs.",
+    "level": "Beginner",
+    "seriesStatus": "in-progress",
+    "techStack": ["TypeScript", "Docker"],
+    "youtubePlaylistUrl": null,
+    "modules": [
+      {
+        "title": "TypeScript",
+        "lessons": [
+          {
+            "slug": "complete-typescript-tutorial-with-notes-part-1",
+            "title": "Complete Typescript Tutorial | With Notes | Part 1",
+            "youtubeVideoId": "5HKNgXyzPfM",
+            "durationSeconds": 1307,
+            "publishedOn": "2024-01-04",
+            "canPlayOnWebsite": true
+          }
+        ]
+      },
+      {
+        "title": "Docker",
+        "lessons": [
+          {
+            "slug": "complete-docker-tutorial-part-1-beginner-to-advanced",
+            "title": "Complete Docker Tutorial (Part 1) || Beginner to Advanced",
+            "youtubeVideoId": "NwFzRLZVQMU",
+            "durationSeconds": 753,
+            "publishedOn": "2023-01-29",
+            "canPlayOnWebsite": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "build-saas-with-ai",
+    "title": "Build SaaS Products with AI",
+    "summary": "Walkthroughs of SaaS products built with AI tools: a support platform in Next.js 16, a CRM dashboard and an automation SaaS with a unified inbox.",
+    "level": "Intermediate",
+    "seriesStatus": "complete",
+    "techStack": ["Next.js", "AI tools", "SaaS"],
+    "youtubePlaylistUrl": null,
+    "modules": [
+      {
+        "title": "Product walkthroughs",
+        "lessons": [
+          {
+            "slug": "i-built-a-full-ai-support-platform-from-figma-in-next-js-16-full-walkt",
+            "title": "I Built a Full AI Support Platform From Figma in Next.js 16: Full Walkthrough",
+            "youtubeVideoId": "WfKdwKzUcWA",
+            "durationSeconds": 355,
+            "publishedOn": "2026-10-17",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "i-built-this-complete-crm-dashboard-in-just-4-hours-using-ai",
+            "title": "I Built This Complete CRM Dashboard in Just 4 Hours Using AI 🚀",
+            "youtubeVideoId": "fzgCqfEvGz4",
+            "durationSeconds": 328,
+            "publishedOn": "2026-01-09",
+            "canPlayOnWebsite": true
+          },
+          {
+            "slug": "sell-this-ai-automation-saas-to-clients-unified-inbox-crm-workflows",
+            "title": "Sell This AI Automation SaaS to Clients | Unified Inbox + CRM + Workflows",
+            "youtubeVideoId": "0TQntf6IcCU",
+            "durationSeconds": 612,
+            "publishedOn": "2026-08-26",
+            "canPlayOnWebsite": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "caption": "Sample weekly report · CSE 2026 batch",
+  "columns": ["Student", "Attendance", "Contest", "Mocks", "Status"],
+  "rows": [
+    {
+      "studentName": "Aarav S.",
+      "attendancePercent": 96,
+      "contestScore": 82,
+      "mocksCompleted": "3/3",
+      "status": "ready"
+    },
+    {
+      "studentName": "Diya R.",
+      "attendancePercent": 91,
+      "contestScore": 74,
+      "mocksCompleted": "2/3",
+      "status": "ready"
+    },
+    {
+      "studentName": "Karthik M.",
+      "attendancePercent": 78,
+      "contestScore": 58,
+      "mocksCompleted": "1/3",
+      "status": "needs-work"
+    }
+  ],
+  "statusLabels": { "ready": "Ready", "needs-work": "Needs work" }
+}

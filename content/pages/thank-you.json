@@ -1,0 +1,13 @@
+{
+  "seo": {
+    "title": "Request received | CodingMonk",
+    "description": "Your request has been received. A CodingMonk founder will contact you about placement training for your college."
+  },
+  "eyebrow": "Request received",
+  "heading": "Thank you. Your request is *saved.*",
+  "description": "WhatsApp should have opened with your details. If it didn't, use one of the options below and mention your reference number.",
+  "referenceLabel": "Reference",
+  "openWhatsappLabel": "Open WhatsApp again",
+  "browseProgramsLabel": "Browse programs",
+  "watchCoursesLabel": "Watch free courses"
+}

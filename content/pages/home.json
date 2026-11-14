@@ -1,0 +1,155 @@
+{
+  "seo": {
+    "title": "CodingMonk | Placement Training Partner for Engineering Colleges",
+    "description": "On-campus placement training for final and pre-final year engineering students across India: a 2-month sprint or 6-month program, with AI used the industry way."
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "eyebrow": "Placement training partner for colleges",
+      "heading": "Train your batch with *focus.* Get them *placed.*",
+      "description": "Campus recruitment training for final and pre-final year engineering students, delivered on your campus as a 2-month sprint or a 6-month program that ends in offer letters.",
+      "primaryCta": {
+        "label": "Book a campus demo",
+        "href": "/book-demo#demo-form"
+      },
+      "secondaryCta": {
+        "label": "Watch free courses",
+        "href": "/courses"
+      },
+      "showWhatsappCta": true,
+      "founderStrip": {
+        "title": "Every demo is led by a founder",
+        "description": "Talk directly to the people who run the training, not a sales team."
+      },
+      "trustPoints": ["Colleges across India", "Free skill check for one batch", "AI-first, fundamentals always"],
+      "ringOuterText": "Aptitude · Coding rounds · DSA · Projects · Core CS · Resume · Mock interviews · Offer letters · ",
+      "ringInnerText": "2-month sprint · 6-month program · 2-month sprint · 6-month program · ",
+      "badges": [
+        {
+          "value": "2 or 6",
+          "label": "month placement programs"
+        },
+        {
+          "value": "126",
+          "label": "free video lessons"
+        }
+      ]
+    },
+    {
+      "type": "logoWall",
+      "eyebrow": "Trusted by colleges and recruiters",
+      "groups": [
+        {
+          "label": "Partner colleges",
+          "source": "colleges"
+        },
+        {
+          "label": "Recruiters",
+          "source": "recruiters"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "eyebrow": "Results",
+      "heading": "Numbers colleges *ask for* first",
+      "description": "Every figure carries its batch year and source. Sample figures are marked."
+    },
+    {
+      "type": "programTimeline",
+      "eyebrow": "How the programs fit together",
+      "heading": "Two programs, one *goal:* placement",
+      "description": "Pre-final year students take the 6-month program. Final-year students join the 2-month sprint. Both end as the placement season opens.",
+      "cta": {
+        "label": "Compare both programs",
+        "href": "/programs"
+      },
+      "finishLabel": "Placement season",
+      "finishNodeLabel": "Offer letters"
+    },
+    {
+      "type": "aiApproach",
+      "eyebrow": "AI-first, fundamentals always",
+      "heading": "Trained for how companies *hire now*",
+      "description": "During training, students use AI tools the way development teams do today, and prove they can still code without them.",
+      "signalsHeading": "What the industry is saying"
+    },
+    {
+      "type": "services",
+      "eyebrow": "What we deliver",
+      "heading": "Everything a placement cell needs, from *one partner*"
+    },
+    {
+      "type": "process",
+      "eyebrow": "How it works",
+      "heading": "From first call to *first report*"
+    },
+    {
+      "type": "placementRecord",
+      "eyebrow": "Placements",
+      "heading": "Real offers, *named* and dated",
+      "description": "Every placement shows the student, college, company and package.",
+      "limit": 5,
+      "showFilters": false,
+      "cta": {
+        "label": "See all placements",
+        "href": "/placements"
+      }
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "Success stories",
+      "heading": "Hear it from *students* and TPOs",
+      "showStudentStories": true,
+      "showQuotes": true
+    },
+    {
+      "type": "courseShowcase",
+      "eyebrow": "Free courses for students",
+      "heading": "Free courses, straight from the *channel*",
+      "description": "Full project courses from the CodingMonk YouTube channel. Watch here or on YouTube.",
+      "limit": 6,
+      "cta": {
+        "label": "See all courses",
+        "href": "/courses"
+      }
+    },
+    {
+      "type": "founders",
+      "eyebrow": "Founders",
+      "heading": "Meet the *founders*",
+      "description": "The people behind the CodingMonk channel and every campus program."
+    },
+    {
+      "type": "engagementModels",
+      "eyebrow": "Getting started",
+      "heading": "How colleges *start* with us",
+      "footnote": "No fixed price list. Every plan is built around your batch sizes and placement calendar.",
+      "cta": {
+        "label": "Talk to us about your campus",
+        "href": "/book-demo#demo-form"
+      }
+    },
+    {
+      "type": "faq",
+      "eyebrow": "FAQ",
+      "heading": "Questions TPOs *ask*",
+      "faqIds": ["what-we-do", "program-difference", "ai-use", "pilot", "trainer-demo", "free-courses"]
+    },
+    {
+      "type": "ctaBand",
+      "eyebrow": "Get started",
+      "heading": "Start with one *pilot batch.*",
+      "description": "A 30-minute call with a founder, then a free skill check and trainer demo on your campus.",
+      "primaryCta": {
+        "label": "Book a campus demo",
+        "href": "/book-demo#demo-form"
+      },
+      "secondaryCta": {
+        "label": "Get a sample placement report",
+        "href": "/book-demo?request=sample-report#demo-form"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "seo": {
+    "title": "Free Full-Stack Project Courses | CodingMonk",
+    "description": "Free project courses from the CodingMonk YouTube channel: chat apps, WebRTC video calling, booking platforms and AI SaaS builds with React and Node.js."
+  },
+  "hero": {
+    "eyebrow": "Free courses",
+    "heading": "Free courses. *Real* projects.",
+    "description": "Project courses from the CodingMonk YouTube channel. Your progress is saved in this browser."
+  },
+  "searchLabel": "Search courses",
+  "searchPlaceholder": "Search by course or technology, e.g. WebRTC",
+  "levelFilterLabel": "Level",
+  "allLevelsLabel": "All levels",
+  "emptyStateMessage": "No courses match. Clear the search or choose another level.",
+  "lessonsUnit": "lessons",
+  "seriesStatusLabels": {
+    "complete": "Complete series",
+    "in-progress": "Series in progress"
+  },
+  "progressLabel": "watched",
+  "ctaBand": {
+    "eyebrow": "For colleges",
+    "heading": "Want this as a *campus program?*",
+    "description": "Our 6-month program runs these projects in your labs with trainers and code reviews.",
+    "primaryCta": {
+      "label": "Book a campus demo",
+      "href": "/book-demo#demo-form"
+    },
+    "secondaryCta": {
+      "label": "See the programs",
+      "href": "/programs"
+    }
+  }
+}

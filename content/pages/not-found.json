@@ -1,0 +1,11 @@
+{
+  "eyebrow": "Page not found",
+  "heading": "This page *doesn't exist.*",
+  "description": "The link may be old or mistyped. Try one of these instead.",
+  "links": [
+    { "label": "Home", "href": "/" },
+    { "label": "Programs", "href": "/programs" },
+    { "label": "Free courses", "href": "/courses" },
+    { "label": "Book a campus demo", "href": "/book-demo#demo-form" }
+  ]
+}

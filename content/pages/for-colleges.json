@@ -1,0 +1,104 @@
+{
+  "seo": {
+    "title": "Campus Recruitment Training for Colleges | CodingMonk",
+    "description": "CRT for engineering colleges: a 2-month final-year placement sprint and a 6-month pre-final year program, with batch-wise reports for the TPO."
+  },
+  "breadcrumbLabel": "For colleges",
+  "sections": [
+    {
+      "type": "pageHero",
+      "eyebrow": "For TPOs, principals, deans and HoDs",
+      "heading": "A training partner that reports to your *TPO.*",
+      "description": "Campus recruitment training on your campus for final and pre-final year students, with weekly contests, mock interviews and batch-wise reports you can share with management.",
+      "primaryCta": {
+        "label": "Book a campus demo",
+        "href": "/book-demo#demo-form"
+      },
+      "secondaryCta": {
+        "label": "Get a sample placement report",
+        "href": "/book-demo?request=sample-report#demo-form"
+      }
+    },
+    {
+      "type": "stats",
+      "eyebrow": "Results",
+      "heading": "Results so *far*"
+    },
+    {
+      "type": "collegeChallenges",
+      "eyebrow": "Why colleges struggle",
+      "heading": "What gets in the way of *placements*"
+    },
+    {
+      "type": "programOverview",
+      "eyebrow": "What's covered",
+      "heading": "Two core programs and *add-ons*"
+    },
+    {
+      "type": "tracks",
+      "eyebrow": "Company test patterns",
+      "heading": "Prepared for both *company types*"
+    },
+    {
+      "type": "services",
+      "eyebrow": "For the placement cell",
+      "heading": "Training, tests and *reports*"
+    },
+    {
+      "type": "programTimeline",
+      "eyebrow": "Delivery timeline",
+      "heading": "Planned around your *placement season*",
+      "description": "Both programs finish as companies start visiting your campus.",
+      "finishLabel": "Placement season",
+      "finishNodeLabel": "Offer letters"
+    },
+    {
+      "type": "engagementModels",
+      "eyebrow": "Engagement models",
+      "heading": "Ways to *start*",
+      "footnote": "No fixed price list. Every plan is built around your batch sizes and placement calendar.",
+      "cta": {
+        "label": "Talk to us about your campus",
+        "href": "/book-demo#demo-form"
+      }
+    },
+    {
+      "type": "batchResults",
+      "eyebrow": "Case studies",
+      "heading": "Batch *results*",
+      "description": "Placement percentage before and after training, by college and batch."
+    },
+    {
+      "type": "testimonials",
+      "eyebrow": "Testimonials",
+      "heading": "What TPOs *say*",
+      "showStudentStories": false,
+      "showQuotes": true
+    },
+    {
+      "type": "studentBenefits",
+      "eyebrow": "For students and parents",
+      "heading": "What students *get*"
+    },
+    {
+      "type": "faq",
+      "eyebrow": "FAQ",
+      "heading": "What decision-makers *ask*",
+      "faqIds": ["what-we-do", "program-difference", "when-to-start", "ai-use", "pilot", "trainer-demo", "reports"]
+    },
+    {
+      "type": "ctaBand",
+      "eyebrow": "Get started",
+      "heading": "Start with one *pilot batch.*",
+      "description": "A 30-minute call with a founder, then a free skill check and trainer demo on your campus.",
+      "primaryCta": {
+        "label": "Book a campus demo",
+        "href": "/book-demo#demo-form"
+      },
+      "secondaryCta": {
+        "label": "Request a proposal",
+        "href": "/book-demo?request=proposal#demo-form"
+      }
+    }
+  ]
+}

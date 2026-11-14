@@ -1,0 +1,32 @@
+{
+  "principles": [
+    {
+      "title": "Fundamentals without AI",
+      "description": "DSA, aptitude and core CS are practiced without AI, so students can think on their own in tests and interviews."
+    },
+    {
+      "title": "Projects with AI, the industry way",
+      "description": "Students build projects with AI coding assistants, the way development teams work today."
+    },
+    {
+      "title": "Review and fix AI code",
+      "description": "Students learn to read, question and correct AI-written code, a skill companies now test."
+    },
+    {
+      "title": "Honest about AI use",
+      "description": "Students learn when AI is allowed in tests and interviews, and how to talk about their AI use."
+    }
+  ],
+  "industrySignals": [
+    {
+      "source": "Nasscom, 2026",
+      "finding": "Most early-career engineers in India use AI well, but engineering judgment is the biggest gap.",
+      "url": "https://sapinsider.org/blogs/nasscom-index-rates-indias-early-career-engineers-ai-proficient-flags-judgment-gap/"
+    },
+    {
+      "source": "Infosys, 2026",
+      "finding": "New hires are trained to work with AI tools and to evaluate AI-generated code.",
+      "url": "https://www.businesstoday.in/technology/story/infosys-ceo-salil-parekh-rules-out-layoffs-plans-20000-campus-hires-as-ai-reshapes-it-industry-528165-2026-04-30"
+    }
+  ]
+}

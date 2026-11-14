@@ -1,0 +1,42 @@
+[
+  {
+    "id": "what-we-do",
+    "question": "What does CodingMonk do for colleges?",
+    "answer": "We run campus recruitment training (CRT) inside your college for final and pre-final year students, as a 2-month sprint or a 6-month program, and share batch-wise progress and placement reports with your TPO."
+  },
+  {
+    "id": "program-difference",
+    "question": "What is the difference between the 2-month and 6-month programs?",
+    "answer": "The 2-month sprint is for final-year students right before placement drives: aptitude, coding rounds, core CS and mock interviews. The 6-month program starts in pre-final year and adds strong DSA and two deployed projects, which product-based companies look for."
+  },
+  {
+    "id": "when-to-start",
+    "question": "When should the 6-month program start?",
+    "answer": "About six months before your placement season, usually in the 6th semester, so it ends just as companies start visiting."
+  },
+  {
+    "id": "ai-use",
+    "question": "How do you use AI in the training?",
+    "answer": "The way the industry uses it today. Students solve DSA and aptitude without AI to build fundamentals, then use AI coding assistants on projects and learn to review and fix AI-written code."
+  },
+  {
+    "id": "pilot",
+    "question": "Can we start with a pilot batch?",
+    "answer": "Yes. Most colleges start with one pilot batch in one department, then extend to more departments after seeing the results."
+  },
+  {
+    "id": "trainer-demo",
+    "question": "Can we see a trainer demo first?",
+    "answer": "Yes. We run a free demo session with your students before deployment, so your team can judge the trainer and the content."
+  },
+  {
+    "id": "reports",
+    "question": "How do you report progress to the placement cell?",
+    "answer": "The TPO gets regular batch-wise updates: attendance, contest scores, mock interview feedback and a final placement-readiness report."
+  },
+  {
+    "id": "free-courses",
+    "question": "Are the CodingMonk courses free for students?",
+    "answer": "Yes. All project courses on this site are free and stream from the CodingMonk YouTube channel."
+  }
+]

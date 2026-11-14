@@ -1,0 +1,17 @@
+pre-commit:
+  parallel: true
+  jobs:
+    - name: lint and format
+      run: bun --bun x biome check --write --no-errors-on-unmatched {staged_files}
+      stage_fixed: true
+    - name: type check
+      run: bun --bun x tsc --noEmit
+    - name: content and design tokens
+      run: bun run check:content && bun run check:tokens && bun run check:spelling
+    - name: unit tests
+      run: bun test tests/unit
+
+pre-push:
+  jobs:
+    - name: production build and full browser test suite
+      run: bun run verify

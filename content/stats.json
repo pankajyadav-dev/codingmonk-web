@@ -1,0 +1,12 @@
+[
+  { "value": 25, "suffix": "+", "label": "Partner colleges", "footnote": "Sample figure", "isSample": true },
+  { "value": 18000, "suffix": "+", "label": "Students trained", "footnote": "Sample figure", "isSample": true },
+  { "value": 3400, "suffix": "+", "label": "Offers in the 2026 season", "footnote": "Sample figure", "isSample": true },
+  {
+    "value": 126,
+    "suffix": "",
+    "label": "Free video lessons on YouTube",
+    "footnote": "From the CodingMonk channel",
+    "isSample": false
+  }
+]

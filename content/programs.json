@@ -1,0 +1,224 @@
+[
+  {
+    "slug": "6-month-placement-program",
+    "kind": "core",
+    "title": "6-Month Placement Program",
+    "audienceLabel": "Pre-final year",
+    "semesterLabel": "6th–7th semester",
+    "durationLabel": "6 months",
+    "totalHours": 300,
+    "deliveryMode": "On campus, 3 days a week, plus a weekly online contest",
+    "summary": "Starts in pre-final year. Strong DSA, two deployed projects, aptitude and mock interviews, so students are ready before the placement season opens.",
+    "outcome": "Pre-final year students reach placement season with interview-level DSA, two deployed projects on their resume and mock interviews already done.",
+    "eligibility": "Pre-final year B.E./B.Tech (CSE, IT, ECE and allied branches), MCA",
+    "trackSlugs": ["service-based", "product-based"],
+    "curriculum": [
+      {
+        "periodLabel": "Month 1",
+        "title": "DSA foundations",
+        "description": "Complexity, arrays, strings, hashing and recursion, with a weekly contest from week 2.",
+        "aiPractice": "Solutions are written without AI. An AI tutor gives hints and explanations only."
+      },
+      {
+        "periodLabel": "Month 2",
+        "title": "Advanced DSA and core CS",
+        "description": "Trees, graphs and dynamic programming at interview level, plus DBMS, OS, networks and OOP.",
+        "aiPractice": "AI explains concepts and generates extra test cases. Every solution is the student's own."
+      },
+      {
+        "periodLabel": "Month 3",
+        "title": "Full-stack project",
+        "description": "A React, Node.js and MongoDB app with authentication, reviewed and deployed.",
+        "aiPractice": "Students pair-program with an AI assistant and must explain every change it suggests."
+      },
+      {
+        "periodLabel": "Month 4",
+        "title": "AI-powered project",
+        "description": "Add an AI feature to the app using an LLM API, then build a small document Q&A tool.",
+        "aiPractice": "Students learn how AI features are built, tested and shipped in real products."
+      },
+      {
+        "periodLabel": "Month 5",
+        "title": "Aptitude and online assessments",
+        "description": "Quantitative, logical and verbal aptitude, plus company-pattern coding rounds under time.",
+        "aiPractice": "Students practice spotting and fixing mistakes in AI-generated code."
+      },
+      {
+        "periodLabel": "Month 6",
+        "title": "Mock interviews and company sprints",
+        "description": "Technical and HR mock interviews with feedback, GD practice, resume polish and prep for each visiting company.",
+        "aiPractice": "Includes a timed round without AI and a round where AI tools are allowed, as some companies now do."
+      }
+    ],
+    "tools": ["C++ or Java", "React", "Node.js", "MongoDB", "Git and GitHub", "AI coding assistants", "LLM APIs"],
+    "assessments": "Weekly coding contests, 2 graded projects, 4 full mock online assessments and 3 mock interviews",
+    "certificate": "CodingMonk completion certificate and a placement-readiness report for each student",
+    "timelineMilestones": [
+      {
+        "shortLabel": "M1",
+        "title": "DSA foundations"
+      },
+      {
+        "shortLabel": "M2",
+        "title": "Advanced DSA and core CS"
+      },
+      {
+        "shortLabel": "M3",
+        "title": "Full-stack project"
+      },
+      {
+        "shortLabel": "M4",
+        "title": "AI-powered project"
+      },
+      {
+        "shortLabel": "M5",
+        "title": "Aptitude and online assessments"
+      },
+      {
+        "shortLabel": "M6",
+        "title": "Mock interviews and company sprints"
+      }
+    ]
+  },
+  {
+    "slug": "2-month-placement-sprint",
+    "kind": "core",
+    "title": "2-Month Placement Sprint",
+    "audienceLabel": "Final year",
+    "semesterLabel": "7th semester, before drives open",
+    "durationLabel": "2 months",
+    "totalHours": 120,
+    "deliveryMode": "On-campus bootcamp, 5 days a week, 3 hours a day",
+    "summary": "An intensive program right before placement drives: aptitude, coding rounds, core CS, resume and mock interviews for every company type.",
+    "outcome": "Final-year students go into the placement season prepared for online assessments, technical rounds and HR rounds.",
+    "eligibility": "Final year B.E./B.Tech (all branches), MCA",
+    "trackSlugs": ["service-based", "product-based"],
+    "curriculum": [
+      {
+        "periodLabel": "Week 1",
+        "title": "Aptitude and reasoning",
+        "description": "Quantitative, logical and verbal aptitude with speed techniques.",
+        "aiPractice": "AI generates extra practice sets. Students solve them without AI."
+      },
+      {
+        "periodLabel": "Week 2",
+        "title": "Coding round basics",
+        "description": "Arrays, strings and patterns that appear in online assessments.",
+        "aiPractice": "Solutions are written without AI to build speed and confidence."
+      },
+      {
+        "periodLabel": "Week 3",
+        "title": "Company-pattern coding",
+        "description": "Online-assessment style problems for service-based and product-based companies, under time.",
+        "aiPractice": "AI reviews finished solutions and explains better approaches."
+      },
+      {
+        "periodLabel": "Week 4",
+        "title": "Core CS revision",
+        "description": "DBMS, OS, computer networks, OOP and SQL.",
+        "aiPractice": "Revision with an AI tutor that quizzes students and explains weak areas."
+      },
+      {
+        "periodLabel": "Week 5",
+        "title": "Resume and project",
+        "description": "A reviewed resume for every student and an AI feature added to their best project.",
+        "aiPractice": "Students learn to describe how they used AI tools in their projects honestly."
+      },
+      {
+        "periodLabel": "Week 6",
+        "title": "Technical mock interviews",
+        "description": "One-to-one technical mocks with written feedback.",
+        "aiPractice": "Includes explaining and fixing AI-written code, a question companies now ask."
+      },
+      {
+        "periodLabel": "Week 7",
+        "title": "HR rounds and GD",
+        "description": "HR mock interviews, group discussions and communication practice.",
+        "aiPractice": "AI is used for extra speaking practice between sessions."
+      },
+      {
+        "periodLabel": "Week 8",
+        "title": "Company sprints",
+        "description": "Mock tests and preparation for each company visiting your campus, plus a final readiness report.",
+        "aiPractice": "Timed company-pattern tests without AI."
+      }
+    ],
+    "tools": ["Aptitude test platform", "Coding practice platform", "AI coding assistants", "Mock interview panel"],
+    "assessments": "Daily practice sets, 4 full mock online assessments and 2 mock interviews",
+    "certificate": "CodingMonk completion certificate and a placement-readiness report for each student",
+    "timelineMilestones": [
+      {
+        "shortLabel": "Wk 1–4",
+        "title": "Aptitude, coding rounds and core CS"
+      },
+      {
+        "shortLabel": "Wk 5–8",
+        "title": "Resume, mock interviews and company sprints"
+      }
+    ]
+  },
+  {
+    "slug": "mock-interview-drive",
+    "kind": "add-on",
+    "title": "Mock Interview Drive",
+    "audienceLabel": "Final year",
+    "semesterLabel": "Before placement season",
+    "durationLabel": "1 week",
+    "totalHours": 30,
+    "deliveryMode": "On campus with a panel of interviewers",
+    "summary": "A week of one-to-one technical and HR mock interviews, with written feedback for every student.",
+    "outcome": "Every student gets a mock interview with written feedback, and the TPO gets a batch summary.",
+    "eligibility": "Final year, all branches",
+    "trackSlugs": ["service-based", "product-based"],
+    "curriculum": [
+      {
+        "periodLabel": "Days 1–3",
+        "title": "Technical mock interviews",
+        "description": "DSA, project and core CS questions.",
+        "aiPractice": "Includes one question on reviewing AI-written code."
+      },
+      {
+        "periodLabel": "Days 4–5",
+        "title": "HR mock interviews and report",
+        "description": "HR rounds, feedback sessions and the batch summary for the TPO.",
+        "aiPractice": "Not used in these sessions."
+      }
+    ],
+    "tools": ["Interview panel", "Feedback rubric"],
+    "assessments": "One technical and one HR mock interview per student",
+    "certificate": "Feedback report for each student",
+    "timelineMilestones": []
+  },
+  {
+    "slug": "ai-project-workshop",
+    "kind": "add-on",
+    "title": "AI Project Workshop",
+    "audienceLabel": "Pre-final and final year",
+    "semesterLabel": "Any semester",
+    "durationLabel": "2 days",
+    "totalHours": 16,
+    "deliveryMode": "2-day on-campus workshop",
+    "summary": "Students build and demo a working AI-powered web app in two days: a strong project for the resume.",
+    "outcome": "Every team demos a working app that uses an LLM API, and understands how it works.",
+    "eligibility": "Students with JavaScript basics",
+    "trackSlugs": ["product-based"],
+    "curriculum": [
+      {
+        "periodLabel": "Day 1",
+        "title": "How AI features are built",
+        "description": "LLM APIs, prompts, and building the app interface in React.",
+        "aiPractice": "Students build with AI assistants and review every change."
+      },
+      {
+        "periodLabel": "Day 2",
+        "title": "Build, test and demo",
+        "description": "Connecting the AI feature, testing it, and team demos.",
+        "aiPractice": "Teams explain where AI helped and where they had to fix it."
+      }
+    ],
+    "tools": ["React", "Node.js", "LLM APIs", "AI coding assistants"],
+    "assessments": "Team demo",
+    "certificate": "Workshop certificate",
+    "timelineMilestones": []
+  }
+]
