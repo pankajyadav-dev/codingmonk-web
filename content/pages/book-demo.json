@@ -48,7 +48,7 @@
         "label": "What would you like?",
         "options": {
           "campus-demo": "Campus demo",
-          "sample-report": "Sample placement report",
+          "sample-report": "Example placement report",
           "proposal": "Proposal"
         }
       },

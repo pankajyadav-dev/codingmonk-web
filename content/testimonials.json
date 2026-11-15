@@ -1,52 +1,32 @@
-{
-  "quotes": [
-    {
-      "quote": "Our 2026 batch had mock interviews done before the first company even visited. The weekly progress updates made planning simple.",
-      "personName": "Dr. A. Rao",
-      "designation": "Training & Placement Officer",
-      "collegeName": "Sample Institute of Technology"
-    },
-    {
-      "quote": "We started with one pilot batch in CSE. The next year we rolled it out to four departments.",
-      "personName": "Prof. S. Iyer",
-      "designation": "Dean",
-      "collegeName": "Sample College of Engineering"
-    },
-    {
-      "quote": "Students actually finish the projects, because the trainers are the same people they watch on YouTube.",
-      "personName": "Ms. P. Shah",
-      "designation": "Placement Coordinator",
-      "collegeName": "Sample University"
-    }
-  ],
-  "studentStories": [
-    {
-      "studentName": "Aarav S.",
-      "headline": "From a tier-3 college to a product company",
-      "durationLabel": "1:42",
-      "youtubeVideoId": null,
-      "tone": "saffron"
-    },
-    {
-      "studentName": "Diya R.",
-      "headline": "My deployed project got me the interview",
-      "durationLabel": "2:05",
-      "youtubeVideoId": null,
-      "tone": "maroon"
-    },
-    {
-      "studentName": "Karthik M.",
-      "headline": "ECE to full-stack developer in one year",
-      "durationLabel": "1:18",
-      "youtubeVideoId": null,
-      "tone": "ember"
-    },
-    {
-      "studentName": "Sneha P.",
-      "headline": "How the mock interviews helped",
-      "durationLabel": "2:31",
-      "youtubeVideoId": null,
-      "tone": "ink"
-    }
-  ]
-}
+[
+  {
+    "quote": "CodingMonk provided excellent guidance, practical insights and consistent support throughout placement preparation, boosting my confidence, communication and interview readiness.",
+    "studentName": "Parth Yadav",
+    "companyName": "Juspay",
+    "packageLpa": 27
+  },
+  {
+    "quote": "The best part about CodingMonk was the practical guidance from the mentors. They focused not only on solving problems but also on developing the right approach and thought process, which significantly improved my system design skills.",
+    "studentName": "Ayush Jha",
+    "companyName": "Integrtr",
+    "packageLpa": 17
+  },
+  {
+    "quote": "CodingMonk helped me improve my coding skills and understand programming concepts better. I gained more confidence by practising and solving coding problems regularly. I would definitely recommend CodingMonk to anyone who wants to learn coding.",
+    "studentName": "Arman Gupta",
+    "companyName": "HyperFace",
+    "packageLpa": 16
+  },
+  {
+    "quote": "CodingMonk provided an environment where consistent effort translated into real improvement. Regular contests and focused mentorship in DSA and system design were crucial in helping me reach this stage.",
+    "studentName": "Aditya Sharma",
+    "companyName": "Shyftlabs",
+    "packageLpa": 10
+  },
+  {
+    "quote": "The instructors at CodingMonk really taught me how to identify a problem and not just solve it. This helped me strengthen my logic and intuition, and I really appreciate the effort they put into me.",
+    "studentName": "Jaideep Singh Sekhon",
+    "companyName": "TCS Digital",
+    "packageLpa": 7.09
+  }
+]

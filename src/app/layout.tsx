@@ -90,6 +90,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
             footerGroups={navigationContent.footerGroups}
             callToAction={navigationContent.headerCta}
             youtubeChannel={siteContent.youtubeChannel}
+            socialLinks={siteContent.socialLinks}
             contactHeading={sharedUiCopy.footerContactHeading}
             contactLines={[
               siteContent.contact.email,

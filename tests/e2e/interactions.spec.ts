@@ -51,9 +51,9 @@ test("announcement bar can be dismissed and stays dismissed", async ({ page }) =
 test("logo wall switches between colleges and recruiters", async ({ page }) => {
   await page.goto("/");
   await page.getByRole("tab", { name: "Recruiters" }).click();
-  await expect(page.getByRole("tabpanel")).toContainText("Northwind Labs");
+  await expect(page.getByRole("tabpanel")).toContainText("Tekion Corp");
   await page.getByRole("tab", { name: "Partner colleges" }).click();
-  await expect(page.getByRole("tabpanel")).toContainText("Sample Institute of Technology");
+  await expect(page.getByRole("tabpanel")).toContainText("Cambridge Institute of Technology");
 });
 
 test("FAQ answers expand and collapse", async ({ page }) => {
@@ -67,18 +67,11 @@ test("FAQ answers expand and collapse", async ({ page }) => {
   await expect(answer).toBeHidden();
 });
 
-test("placement filters narrow the record", async ({ page }) => {
+test("placement record lists offers by package, highest first", async ({ page }) => {
   await page.goto("/placements");
-  const record = page.locator("ul[aria-live='polite']");
-  const allRows = await record.locator("li").count();
-  await page.getByRole("button", { name: "2025 batch" }).click();
-  await expect(record.locator("li")).not.toHaveCount(allRows);
-  await expect(record).not.toContainText("2026");
-  await page.getByRole("button", { name: "Service-based" }).click();
-  await expect(record.locator("li")).toHaveCount(1);
-  await page.getByRole("button", { name: "All batches" }).click();
-  await page.getByRole("button", { name: "All companies" }).click();
-  await expect(record.locator("li")).toHaveCount(allRows);
+  const rows = page.getByRole("region", { name: "All placements" }).getByRole("listitem");
+  await expect(rows.first()).toContainText("Microsoft");
+  await expect(rows.first()).toContainText("51.03 LPA");
 });
 
 test("course catalog search and level filter work, including the empty state", async ({ page }) => {
@@ -113,15 +106,6 @@ test("lesson player loads the video only when asked and tracks progress", async 
     "aria-valuenow",
     expectedPercent,
   );
-});
-
-test("student story opens in a dialog and closes with Escape", async ({ page }) => {
-  await page.goto("/");
-  await page.getByRole("button", { name: "Play Aarav S.'s story" }).click();
-  const dialog = page.getByRole("dialog");
-  await expect(dialog).toContainText("This video will be added soon.");
-  await page.keyboard.press("Escape");
-  await expect(dialog).toBeHidden();
 });
 
 test("WhatsApp buttons open a pre-filled chat", async ({ page }) => {

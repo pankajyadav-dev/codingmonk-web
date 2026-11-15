@@ -1,10 +1,5 @@
 [
-  { "name": "Sample Institute of Technology" },
-  { "name": "Sample College of Engineering" },
-  { "name": "Sample University" },
-  { "name": "Sample Engineering College" },
-  { "name": "Sample Institute of Science and Technology" },
-  { "name": "Sample Group of Institutions" },
-  { "name": "Sample Technical University" },
-  { "name": "Sample Women's Engineering College" }
+  { "name": "Cambridge Institute of Technology" },
+  { "name": "Nitte Meenakshi Institute of Technology" },
+  { "name": "New Horizon College of Engineering" }
 ]

@@ -28,15 +28,6 @@
   --on-whatsapp: #ffffff;
   --overlay: rgb(0 0 0 / 0.5);
   --shadow-color: rgb(31 27 22 / 0.12);
-  --tone-saffron-start: #b4540a;
-  --tone-saffron-end: #7a1f2b;
-  --tone-maroon-start: #7a1f2b;
-  --tone-maroon-end: #1b1712;
-  --tone-ember-start: #8a4200;
-  --tone-ember-end: #b4540a;
-  --tone-ink-start: #1b1712;
-  --tone-ink-end: #9a4a00;
-  --on-tone: #ffffff;
   color-scheme: light;
 }
 
@@ -88,7 +79,6 @@
   --color-whatsapp: var(--whatsapp);
   --color-on-whatsapp: var(--on-whatsapp);
   --color-overlay: var(--overlay);
-  --color-on-tone: var(--on-tone);
 
   --font-display: var(--font-sora), "Segoe UI", system-ui, sans-serif;
   --font-accent: var(--font-instrument-serif), Georgia, serif;

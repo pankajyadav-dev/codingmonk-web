@@ -24,7 +24,7 @@
       "title": "Company",
       "links": [
         { "label": "For colleges", "href": "/for-colleges" },
-        { "label": "About and trainers", "href": "/about" },
+        { "label": "About us", "href": "/about" },
         { "label": "Book a campus demo", "href": "/book-demo#demo-form" },
         { "label": "Privacy policy", "href": "/privacy" }
       ]

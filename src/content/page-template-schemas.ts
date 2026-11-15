@@ -181,21 +181,12 @@ export const sharedCopySchema = z.object({
   whatsappButtonLabel: nonEmptyText,
   whatsappCtaLabel: nonEmptyText,
   dismissAnnouncementLabel: nonEmptyText,
-  sampleBadgeLabel: nonEmptyText,
   breadcrumbHomeLabel: nonEmptyText,
-  playStoryLabel: nonEmptyText,
-  storyComingSoon: nonEmptyText,
-  placementFilters: z.object({
-    allBatchesLabel: nonEmptyText,
-    batchLabel: nonEmptyText,
-    allCompanyTypesLabel: nonEmptyText,
-    companyTypeLabels: labelMap(["service-based", "product-based"]),
-  }),
-  placementEmptyMessage: nonEmptyText,
+  placementPackageLabel: nonEmptyText,
+  placedAtLabel: nonEmptyText,
   stepLabel: nonEmptyText,
   mainNavigationLabel: nonEmptyText,
   mobileNavigationLabel: nonEmptyText,
-  closeDialogLabel: nonEmptyText,
   timelineColumnLabels: labelMap(["monthsBefore", "oneMonthBefore"]),
   laneLinkLabel: nonEmptyText,
   breadcrumbAriaLabel: nonEmptyText,
@@ -213,7 +204,6 @@ export const sharedCopySchema = z.object({
   footerTagline: nonEmptyText,
   footerContactHeading: nonEmptyText,
   copyrightLabel: nonEmptyText,
-  sampleDataBanner: nonEmptyText,
 });
 
 export type ProgramDetailCopy = z.infer<typeof programDetailCopySchema>;

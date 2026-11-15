@@ -2,7 +2,7 @@ import { AppLink } from "@/components/atoms/app-link";
 import { BrandMark } from "@/components/atoms/brand-mark";
 import { BrandWordmark } from "@/components/atoms/brand-wordmark";
 import { ButtonLink } from "@/components/atoms/button";
-import type { InternalLink } from "@/content/schemas";
+import type { ExternalLink, InternalLink } from "@/content/schemas";
 
 type FooterGroup = { title: string; links: InternalLink[] };
 
@@ -13,6 +13,7 @@ type SiteFooterProps = {
   footerGroups: FooterGroup[];
   callToAction: InternalLink;
   youtubeChannel: { name: string; url: string };
+  socialLinks: ExternalLink[];
   contactHeading: string;
   contactLines: string[];
   copyrightText: string;
@@ -62,6 +63,13 @@ export function SiteFooter(footer: SiteFooterProps) {
             {footer.contactLines.map((contactLine) => (
               <li key={contactLine} className="select-all break-words">
                 {contactLine}
+              </li>
+            ))}
+            {footer.socialLinks.map((socialLink) => (
+              <li key={socialLink.url}>
+                <AppLink href={socialLink.url} className="hover:text-brand">
+                  {socialLink.label}
+                </AppLink>
               </li>
             ))}
           </ul>

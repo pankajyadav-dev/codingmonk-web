@@ -1,10 +1,14 @@
 [
-  { "name": "Northwind Labs" },
-  { "name": "Bluepeak Software" },
-  { "name": "Zentrix Cloud" },
-  { "name": "Kavya Systems" },
-  { "name": "Orbit Fintech" },
-  { "name": "Monsoon Analytics" },
-  { "name": "Tessera AI" },
-  { "name": "Lotus Commerce" }
+  { "name": "Tekion Corp" },
+  { "name": "Kyte Money" },
+  { "name": "Evolute Trading" },
+  { "name": "Shopdeck" },
+  { "name": "Celigo" },
+  { "name": "Microsoft" },
+  { "name": "Amazon" },
+  { "name": "ServiceNow" },
+  { "name": "Zomato" },
+  { "name": "Juspay" },
+  { "name": "SAP" },
+  { "name": "Cleartrip" }
 ]

@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "About CodingMonk and Our Trainers",
-    "description": "CodingMonk began as a YouTube channel teaching full-stack development through real projects. Today the same trainers run placement programs in colleges."
+    "title": "About CodingMonk | Placement Training for Colleges",
+    "description": "CodingMonk began as a YouTube channel teaching full-stack development through real projects. Today we run placement programs in engineering colleges."
   },
   "breadcrumbLabel": "About",
   "sections": [
@@ -9,7 +9,7 @@
       "type": "pageHero",
       "eyebrow": "About",
       "heading": "Developers who *teach* what they build.",
-      "description": "CodingMonk started as a YouTube channel teaching full-stack development through real projects. Today the same trainers run 2-month and 6-month placement programs inside engineering colleges across India."
+      "description": "CodingMonk started as a YouTube channel teaching full-stack development through real projects. Today we bring the same build-first teaching to 2-month and 6-month placement programs inside engineering colleges."
     },
     {
       "type": "values",
@@ -17,10 +17,9 @@
       "heading": "What we *believe*"
     },
     {
-      "type": "trainers",
-      "eyebrow": "Trainers",
-      "heading": "Our *trainers*",
-      "description": "Sample profiles. Real names, photos and experience will be added before launch."
+      "type": "founders",
+      "eyebrow": "Founders",
+      "heading": "Meet the *founders*"
     },
     {
       "type": "courseShowcase",

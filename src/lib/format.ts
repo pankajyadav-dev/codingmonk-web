@@ -5,7 +5,7 @@ export function formatIndianNumber(value: number) {
 }
 
 export function formatPackageLpa(packageLpa: number) {
-  return `${Number.isInteger(packageLpa) ? packageLpa : packageLpa.toFixed(1)} LPA`;
+  return `${Number(packageLpa.toFixed(2))} LPA`;
 }
 
 export function formatVideoDuration(totalSeconds: number) {

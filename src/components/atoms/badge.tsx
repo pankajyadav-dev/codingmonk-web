@@ -7,8 +7,6 @@ const badgeStyles = cva("inline-flex w-fit items-center gap-1 whitespace-nowrap 
       brand: "rounded-sm bg-brand px-2.5 py-1 text-caption text-on-brand",
       soft: "rounded-sm bg-surface-raised px-2.5 py-1 text-caption text-brand-strong",
       success: "rounded-sm bg-surface-raised px-2.5 py-1 text-caption text-success",
-      sample:
-        "rounded-[4px] border border-dashed border-line px-1.5 py-px font-body text-[0.7rem] font-semibold text-muted",
       tag: "rounded-[6px] border border-line bg-surface px-2 py-1 font-body text-caption font-semibold text-ink",
     },
   },

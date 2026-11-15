@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Placements and Batch Results | CodingMonk",
-    "description": "Placement records and batch-wise results from CodingMonk partner colleges: offers, companies and packages in LPA."
+    "title": "Placements and Student Stories | CodingMonk",
+    "description": "Where CodingMonk students got placed: Microsoft, Amazon, ServiceNow, Zomato, Juspay and more, with each package in LPA."
   },
   "breadcrumbLabel": "Placements",
   "sections": [
@@ -9,7 +9,7 @@
       "type": "pageHero",
       "eyebrow": "Placements",
       "heading": "Every offer, on the *record.*",
-      "description": "Each placement lists the student, branch, batch, college, company and package. Sample rows are shown until real data is added."
+      "description": "Each placement lists the student, the company and the package (CTC)."
     },
     {
       "type": "stats",
@@ -20,22 +20,14 @@
       "type": "placementRecord",
       "eyebrow": "Placement record",
       "heading": "All *placements*",
-      "description": "Filter by batch year and company type.",
-      "limit": null,
-      "showFilters": true
-    },
-    {
-      "type": "batchResults",
-      "eyebrow": "Batch results",
-      "heading": "Results by *batch*",
-      "description": "Placement percentage before and after training."
+      "description": "Sorted by package, highest first.",
+      "limit": null
     },
     {
       "type": "testimonials",
       "eyebrow": "Student stories",
       "heading": "In their *own words*",
-      "showStudentStories": true,
-      "showQuotes": false
+      "limit": null
     },
     {
       "type": "ctaBand",
@@ -47,7 +39,7 @@
         "href": "/book-demo#demo-form"
       },
       "secondaryCta": {
-        "label": "Get a sample placement report",
+        "label": "See an example report",
         "href": "/book-demo?request=sample-report#demo-form"
       }
     }

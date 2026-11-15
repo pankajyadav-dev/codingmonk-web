@@ -15,7 +15,7 @@
         "href": "/book-demo#demo-form"
       },
       "secondaryCta": {
-        "label": "Get a sample placement report",
+        "label": "See an example report",
         "href": "/book-demo?request=sample-report#demo-form"
       }
     },
@@ -63,17 +63,10 @@
       }
     },
     {
-      "type": "batchResults",
-      "eyebrow": "Case studies",
-      "heading": "Batch *results*",
-      "description": "Placement percentage before and after training, by college and batch."
-    },
-    {
       "type": "testimonials",
-      "eyebrow": "Testimonials",
-      "heading": "What TPOs *say*",
-      "showStudentStories": false,
-      "showQuotes": true
+      "eyebrow": "Student stories",
+      "heading": "What our *students* say",
+      "limit": 3
     },
     {
       "type": "studentBenefits",

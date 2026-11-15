@@ -1,7 +1,7 @@
 import { SectionHeader } from "@/components/molecules/section-header";
 import { PageSection, type SectionTone } from "@/components/organisms/page-section";
 import { StatsGrid } from "@/components/organisms/stats-grid";
-import { sharedUiCopy, statsContent } from "@/content";
+import { statsContent } from "@/content";
 import type { SectionOf } from "@/content/schemas";
 
 export function StatsSection({
@@ -22,7 +22,7 @@ export function StatsSection({
         description={section.description}
         headingId={headingId}
       />
-      <StatsGrid stats={statsContent} sampleBadgeLabel={sharedUiCopy.sampleBadgeLabel} />
+      <StatsGrid stats={statsContent} />
     </PageSection>
   );
 }

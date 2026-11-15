@@ -22,7 +22,7 @@
         "title": "Every demo is led by a founder",
         "description": "Talk directly to the people who run the training, not a sales team."
       },
-      "trustPoints": ["Colleges across India", "Free skill check for one batch", "AI-first, fundamentals always"],
+      "trustPoints": ["Offers up to 51 LPA", "Free skill check for one batch", "AI-first, fundamentals always"],
       "ringOuterText": "Aptitude · Coding rounds · DSA · Projects · Core CS · Resume · Mock interviews · Offer letters · ",
       "ringInnerText": "2-month sprint · 6-month program · 2-month sprint · 6-month program · ",
       "badges": [
@@ -54,7 +54,7 @@
       "type": "stats",
       "eyebrow": "Results",
       "heading": "Numbers colleges *ask for* first",
-      "description": "Every figure carries its batch year and source. Sample figures are marked."
+      "description": "Figures from our own placement records, updated November 2026."
     },
     {
       "type": "programTimeline",
@@ -88,10 +88,9 @@
     {
       "type": "placementRecord",
       "eyebrow": "Placements",
-      "heading": "Real offers, *named* and dated",
-      "description": "Every placement shows the student, college, company and package.",
+      "heading": "Real offers, *named*",
+      "description": "Each placement shows the student, the company and the package.",
       "limit": 5,
-      "showFilters": false,
       "cta": {
         "label": "See all placements",
         "href": "/placements"
@@ -100,9 +99,8 @@
     {
       "type": "testimonials",
       "eyebrow": "Success stories",
-      "heading": "Hear it from *students* and TPOs",
-      "showStudentStories": true,
-      "showQuotes": true
+      "heading": "Hear it from our *students*",
+      "limit": 3
     },
     {
       "type": "courseShowcase",
@@ -119,7 +117,7 @@
       "type": "founders",
       "eyebrow": "Founders",
       "heading": "Meet the *founders*",
-      "description": "The people behind the CodingMonk channel and every campus program."
+      "description": "The people behind every CodingMonk campus program."
     },
     {
       "type": "engagementModels",
@@ -147,7 +145,7 @@
         "href": "/book-demo#demo-form"
       },
       "secondaryCta": {
-        "label": "Get a sample placement report",
+        "label": "See an example report",
         "href": "/book-demo?request=sample-report#demo-form"
       }
     }

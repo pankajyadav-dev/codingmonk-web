@@ -65,7 +65,7 @@ import {
   serviceSchema,
   siteSchema,
   statSchema,
-  testimonialsSchema,
+  testimonialSchema,
   titledItemSchema,
   trackSchema,
   trainerSchema,
@@ -99,7 +99,7 @@ export const collegesContent = parseContent(z.array(organizationNameSchema), col
 export const recruitersContent = parseContent(z.array(organizationNameSchema), recruiters, "content/recruiters.json");
 export const placementsContent = parseContent(z.array(placementSchema), placements, "content/placements.json");
 export const batchResultsContent = parseContent(z.array(batchResultSchema), batchResults, "content/batch-results.json");
-export const testimonialsContent = parseContent(testimonialsSchema, testimonials, "content/testimonials.json");
+export const testimonialsContent = parseContent(z.array(testimonialSchema), testimonials, "content/testimonials.json");
 export const faqContent = parseContent(z.array(faqItemSchema), faq, "content/faq.json");
 export const servicesContent = parseContent(z.array(serviceSchema), services, "content/services.json");
 export const sampleReportContent = parseContent(sampleReportSchema, sampleReport, "content/sample-report.json");
@@ -163,10 +163,8 @@ export function getFaqItemsByIds(faqIds: readonly string[]) {
   return faqIds.flatMap((faqId) => faqContent.filter((faqItem) => faqItem.id === faqId));
 }
 
-export function getPlacementsNewestFirst() {
-  return [...placementsContent].sort(
-    (first, second) => second.batchYear - first.batchYear || second.packageLpa - first.packageLpa,
-  );
+export function getPlacementsByPackage() {
+  return [...placementsContent].sort((first, second) => second.packageLpa - first.packageLpa);
 }
 
 export function findContentIntegrityProblems(): string[] {

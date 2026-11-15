@@ -1,82 +1,14 @@
 [
-  {
-    "studentName": "Aarav S.",
-    "branch": "CSE",
-    "batchYear": 2026,
-    "collegeName": "Sample Institute of Technology",
-    "role": "Software Engineer",
-    "companyName": "Northwind Labs",
-    "companyType": "product-based",
-    "packageLpa": 14.5
-  },
-  {
-    "studentName": "Diya R.",
-    "branch": "IT",
-    "batchYear": 2026,
-    "collegeName": "Sample College of Engineering",
-    "role": "Frontend Developer",
-    "companyName": "Bluepeak Software",
-    "companyType": "product-based",
-    "packageLpa": 9
-  },
-  {
-    "studentName": "Karthik M.",
-    "branch": "ECE",
-    "batchYear": 2026,
-    "collegeName": "Sample University",
-    "role": "Full-stack Developer",
-    "companyName": "Zentrix Cloud",
-    "companyType": "product-based",
-    "packageLpa": 11.2
-  },
-  {
-    "studentName": "Sneha P.",
-    "branch": "CSE",
-    "batchYear": 2026,
-    "collegeName": "Sample Engineering College",
-    "role": "Systems Engineer",
-    "companyName": "Kavya Systems",
-    "companyType": "service-based",
-    "packageLpa": 7
-  },
-  {
-    "studentName": "Rohan K.",
-    "branch": "CSE",
-    "batchYear": 2025,
-    "collegeName": "Sample Institute of Technology",
-    "role": "Backend Developer",
-    "companyName": "Orbit Fintech",
-    "companyType": "product-based",
-    "packageLpa": 12
-  },
-  {
-    "studentName": "Meera J.",
-    "branch": "IT",
-    "batchYear": 2025,
-    "collegeName": "Sample Group of Institutions",
-    "role": "Associate Software Engineer",
-    "companyName": "Monsoon Analytics",
-    "companyType": "service-based",
-    "packageLpa": 6.5
-  },
-  {
-    "studentName": "Vikram T.",
-    "branch": "MECH",
-    "batchYear": 2025,
-    "collegeName": "Sample University",
-    "role": "Data Analyst",
-    "companyName": "Tessera AI",
-    "companyType": "product-based",
-    "packageLpa": 7.2
-  },
-  {
-    "studentName": "Ananya G.",
-    "branch": "CSE",
-    "batchYear": 2025,
-    "collegeName": "Sample College of Engineering",
-    "role": "Product Engineer",
-    "companyName": "Lotus Commerce",
-    "companyType": "product-based",
-    "packageLpa": 16
-  }
+  { "studentName": "Nukavarapu Vamsi", "companyName": "Microsoft", "packageLpa": 51.03 },
+  { "studentName": "Shrishti", "companyName": "Amazon", "packageLpa": 48.65 },
+  { "studentName": "Amit Gupta", "companyName": "ServiceNow", "packageLpa": 42 },
+  { "studentName": "Ayush Shukla", "companyName": "Optymzr", "packageLpa": 35 },
+  { "studentName": "Gaurav Chauhan", "companyName": "Zomato", "packageLpa": 33 },
+  { "studentName": "Parth Yadav", "companyName": "Juspay", "packageLpa": 27 },
+  { "studentName": "Pankaj Yadav", "companyName": "Kyte Money", "packageLpa": 22 },
+  { "studentName": "Anshul Singh", "companyName": "SAP", "packageLpa": 20.75 },
+  { "studentName": "Shruti Bansal Gupta", "companyName": "Cleartrip", "packageLpa": 19.54 },
+  { "studentName": "Ayush Jha", "companyName": "Integrtr", "packageLpa": 17 },
+  { "studentName": "Arman Gupta", "companyName": "HyperFace", "packageLpa": 16 },
+  { "studentName": "Abhay Bajpai", "companyName": "Shopdeck", "packageLpa": 10 }
 ]

@@ -19,6 +19,8 @@ describe("formatting", () => {
   test("packages read as LPA", () => {
     expect(formatPackageLpa(9)).toBe("9 LPA");
     expect(formatPackageLpa(14.5)).toBe("14.5 LPA");
+    expect(formatPackageLpa(51.03)).toBe("51.03 LPA");
+    expect(formatPackageLpa(7.0949)).toBe("7.09 LPA");
   });
   test("durations", () => {
     expect(formatVideoDuration(65)).toBe("1:05");

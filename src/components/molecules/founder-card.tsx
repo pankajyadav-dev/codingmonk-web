@@ -21,13 +21,15 @@ export function FounderCard({ founder }: { founder: Founder }) {
         <p className="text-caption font-bold text-brand-strong">{founder.role}</p>
         <h3 className="font-display text-heading-lg font-bold">{founder.name}</h3>
         <p className="text-body text-muted">{founder.shortBio}</p>
-        <div className="flex flex-wrap gap-2.5 pt-1">
-          {founder.links.map((link) => (
-            <ButtonLink key={link.url} href={link.url} variant="secondary" size="sm">
-              {link.label}
-            </ButtonLink>
-          ))}
-        </div>
+        {founder.links.length > 0 ? (
+          <div className="flex flex-wrap gap-2.5 pt-1">
+            {founder.links.map((link) => (
+              <ButtonLink key={link.url} href={link.url} variant="secondary" size="sm">
+                {link.label}
+              </ButtonLink>
+            ))}
+          </div>
+        ) : null}
       </div>
     </article>
   );

@@ -1,5 +1,5 @@
 {
-  "caption": "Sample weekly report · CSE 2026 batch",
+  "caption": "Weekly report · CSE 2026 batch",
   "columns": ["Student", "Attendance", "Contest", "Mocks", "Status"],
   "rows": [
     {

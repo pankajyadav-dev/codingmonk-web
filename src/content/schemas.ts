@@ -27,7 +27,6 @@ export const siteSchema = z.object({
   socialLinks: z.array(externalLinkSchema.extend({ url: externalUrl })),
   whatsappGreeting: nonEmptyText,
   copyrightStartYear: z.number().int().min(2000),
-  sampleDataNotice: nonEmptyText,
   wordmark: z.object({ lead: nonEmptyText, accent: nonEmptyText }),
 });
 
@@ -85,19 +84,13 @@ export const statSchema = z.object({
   suffix: z.string(),
   label: nonEmptyText,
   footnote: nonEmptyText,
-  isSample: z.boolean(),
 });
 
 export const organizationNameSchema = z.object({ name: nonEmptyText });
 
 export const placementSchema = z.object({
   studentName: nonEmptyText,
-  branch: nonEmptyText,
-  batchYear: z.number().int().min(2000),
-  collegeName: nonEmptyText,
-  role: nonEmptyText,
   companyName: nonEmptyText,
-  companyType: companyTypeSchema,
   packageLpa: z.number().positive(),
 });
 
@@ -112,24 +105,11 @@ export const batchResultSchema = z.object({
   placementPercentAfter: z.number().min(0).max(100),
 });
 
-export const storyToneSchema = z.enum(["saffron", "maroon", "ember", "ink"]);
-
-export const testimonialsSchema = z.object({
-  quotes: z.array(
-    z.object({ quote: nonEmptyText, personName: nonEmptyText, designation: nonEmptyText, collegeName: nonEmptyText }),
-  ),
-  studentStories: z.array(
-    z.object({
-      studentName: nonEmptyText,
-      headline: nonEmptyText,
-      durationLabel: nonEmptyText,
-      youtubeVideoId: z
-        .string()
-        .regex(/^[\w-]{11}$/)
-        .nullable(),
-      tone: storyToneSchema,
-    }),
-  ),
+export const testimonialSchema = z.object({
+  quote: nonEmptyText,
+  studentName: nonEmptyText,
+  companyName: nonEmptyText,
+  packageLpa: z.number().positive(),
 });
 
 export const faqItemSchema = z.object({ id: nonEmptyText, question: nonEmptyText, answer: nonEmptyText });
@@ -253,14 +233,12 @@ export const sectionSchema = z.discriminatedUnion("type", [
     type: z.literal("placementRecord"),
     ...sectionCopy,
     limit: z.number().int().positive().nullable(),
-    showFilters: z.boolean(),
     cta: internalLinkSchema.optional(),
   }),
   z.object({
     type: z.literal("testimonials"),
     ...sectionCopy,
-    showStudentStories: z.boolean(),
-    showQuotes: z.boolean(),
+    limit: z.number().int().positive().nullable(),
   }),
   z.object({
     type: z.literal("courseShowcase"),
@@ -317,9 +295,7 @@ export type CompanyType = z.infer<typeof companyTypeSchema>;
 export type Stat = z.infer<typeof statSchema>;
 export type Placement = z.infer<typeof placementSchema>;
 export type BatchResult = z.infer<typeof batchResultSchema>;
-export type Testimonials = z.infer<typeof testimonialsSchema>;
-export type StudentStory = Testimonials["studentStories"][number];
-export type Quote = Testimonials["quotes"][number];
+export type Testimonial = z.infer<typeof testimonialSchema>;
 export type FaqItem = z.infer<typeof faqItemSchema>;
 export type Service = z.infer<typeof serviceSchema>;
 export type SampleReport = z.infer<typeof sampleReportSchema>;
@@ -338,4 +314,5 @@ export type SectionOf<Type extends SectionType> = Extract<Section, { type: Type 
 export type ComposedPage = z.infer<typeof composedPageSchema>;
 export type PageSeo = z.infer<typeof pageSeoSchema>;
 export type InternalLink = z.infer<typeof internalLinkSchema>;
+export type ExternalLink = z.infer<typeof externalLinkSchema>;
 export type CtaBandCopy = z.infer<typeof ctaBandCopySchema>;

@@ -1,12 +1,26 @@
 [
-  { "value": 25, "suffix": "+", "label": "Partner colleges", "footnote": "Sample figure", "isSample": true },
-  { "value": 18000, "suffix": "+", "label": "Students trained", "footnote": "Sample figure", "isSample": true },
-  { "value": 3400, "suffix": "+", "label": "Offers in the 2026 season", "footnote": "Sample figure", "isSample": true },
+  {
+    "value": 3,
+    "suffix": "+",
+    "label": "Partner colleges",
+    "footnote": "In Bengaluru, as of November 2026"
+  },
+  {
+    "value": 40,
+    "suffix": "+",
+    "label": "Students placed",
+    "footnote": "From our placement records"
+  },
+  {
+    "value": 51,
+    "suffix": " LPA",
+    "label": "Highest package",
+    "footnote": "Microsoft offer, 51.03 LPA"
+  },
   {
     "value": 126,
     "suffix": "",
     "label": "Free video lessons on YouTube",
-    "footnote": "From the CodingMonk channel",
-    "isSample": false
+    "footnote": "From the CodingMonk channel"
   }
 ]

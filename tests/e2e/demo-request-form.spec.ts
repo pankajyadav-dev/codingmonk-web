@@ -65,7 +65,7 @@ test("the request type follows the link, even when the demo page was already ope
   await page.goto("/book-demo");
   await expect(page.getByLabel("What would you like?")).toHaveValue("campus-demo");
   await page.goto("/");
-  await page.getByRole("link", { name: "Get a sample placement report" }).click();
+  await page.getByRole("link", { name: "See an example report" }).click();
   await expect(page).toHaveURL(/request=sample-report/);
   await expect(page.getByLabel("What would you like?")).toHaveValue("sample-report");
   await page.getByLabel("What would you like?").selectOption("proposal");
