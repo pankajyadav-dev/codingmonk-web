@@ -12,6 +12,7 @@
     "check:content": "bun scripts/check-content.ts",
     "check:tokens": "bun scripts/check-design-tokens.ts",
     "check:spelling": "bun --bun x cspell --no-progress --no-summary",
+    "brochure": "bun scripts/build-brochure.ts",
     "test:unit": "bun test tests/unit",
     "test:e2e": "bun --bun x playwright test --grep-invert @visual",
     "test:visual:update": "bun --bun x playwright test --grep @visual --update-snapshots",
