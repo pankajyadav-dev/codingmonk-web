@@ -45,6 +45,18 @@ test("each step explains what is missing before moving on", async ({ page }) => 
   await expect(page.getByLabel("College name")).toHaveValue("Sample Institute of Technology");
 });
 
+test("reaching the contact step shows no errors before the form is sent", async ({ page }) => {
+  await page.goto("/book-demo");
+  await fillCollegeStep(page);
+  await page.getByRole("button", { name: "Continue" }).click();
+  await fillBatchStep(page);
+  await page.getByRole("button", { name: "Continue" }).click();
+  await expect(page.getByRole("heading", { name: "How can we reach you?" })).toBeVisible();
+  await expect(page.getByLabel("Your name")).not.toHaveAttribute("aria-invalid", "true");
+  await expect(page.getByText("Please fill in this field.")).toHaveCount(0);
+  await expect(page.getByText("Please agree so we can contact you.")).toHaveCount(0);
+});
+
 test("phone, email and consent are validated", async ({ page }) => {
   await page.goto("/book-demo");
   await fillCollegeStep(page);

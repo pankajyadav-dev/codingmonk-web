@@ -132,6 +132,21 @@ test("every internal link on every page works", async ({ page, request }, testIn
   }
 });
 
+test("leaving a lesson stops its video, so only one lesson ever plays", async ({ page }) => {
+  await page.goto("/courses/webrtc-video-call-app");
+  await page.getByRole("link", { name: "Start course" }).click();
+  await page.getByRole("button", { name: /Play video/ }).click();
+  await expect(page.locator("iframe")).toHaveCount(1);
+  await page.getByRole("link", { name: "Next lesson" }).click();
+  await expect(page.getByText(/^Lesson 2 of \d+ ·/)).toBeVisible();
+  await expect(page.locator("iframe")).toHaveCount(0);
+  await page.getByRole("button", { name: /Play video/ }).click();
+  await expect(page.locator("iframe")).toHaveCount(1);
+  await page.goBack();
+  await expect(page.getByText(/^Lesson 1 of \d+ ·/)).toBeVisible();
+  await expect(page.locator("iframe")).toHaveCount(0);
+});
+
 test("lessons blocked from embedding send visitors to YouTube instead of a broken player", async ({ page }) => {
   test.skip(!youtubeOnlyLessonRoute, "Every lesson currently plays on the website");
   await page.goto(youtubeOnlyLessonRoute ?? "/");

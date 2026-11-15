@@ -46,6 +46,7 @@ function isYoutubeErrorMessage(messageData: unknown) {
 export function LessonPlayer({ courseSlug, lesson, previousLesson, nextLesson, labels }: LessonPlayerProps) {
   const [playerView, setPlayerView] = useState<PlayerView>(lesson.canPlayOnWebsite ? "poster" : "youtube-only");
   const embeddedPlayerRef = useRef<HTMLIFrameElement>(null);
+  const playerFrameRef = useRef<HTMLDivElement>(null);
   const completedLessonKeys = useCompletedLessons();
   const lessonKey = buildLessonKey(courseSlug, lesson.slug);
   const isCompleted = completedLessonKeys.has(lessonKey);
@@ -61,6 +62,19 @@ export function LessonPlayer({ courseSlug, lesson, previousLesson, nextLesson, l
     return () => window.removeEventListener("message", switchToYoutubeWhenBlocked);
   }, [playerView]);
 
+  useEffect(() => {
+    const playerFrame = playerFrameRef.current;
+    return () => {
+      playerFrame
+        ?.querySelector("iframe")
+        ?.contentWindow?.postMessage(
+          JSON.stringify({ event: "command", func: "pauseVideo", args: [] }),
+          youtubeEmbedOrigin,
+        );
+      setPlayerView((currentView) => (currentView === "embedded" ? "poster" : currentView));
+    };
+  }, []);
+
   const subscribeToPlayerEvents = () => {
     embeddedPlayerRef.current?.contentWindow?.postMessage(
       JSON.stringify({ event: "listening", id: lesson.youtubeVideoId, channel: "widget" }),
@@ -70,7 +84,7 @@ export function LessonPlayer({ courseSlug, lesson, previousLesson, nextLesson, l
 
   return (
     <div className="grid gap-4">
-      <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-panel">
+      <div ref={playerFrameRef} className="relative aspect-video w-full overflow-hidden rounded-lg bg-panel">
         {playerView === "embedded" ? (
           <iframe
             ref={embeddedPlayerRef}

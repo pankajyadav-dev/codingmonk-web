@@ -426,11 +426,13 @@ export function DemoRequestForm({ submitAction, formCopy, programOptions, source
           <span />
         )}
         {isLastStep ? (
-          <Button type="submit" disabled={isSubmitting}>
+          <Button key="submit" type="submit" disabled={isSubmitting}>
             {isSubmitting ? formCopy.submittingLabel : formCopy.submitLabel}
           </Button>
         ) : (
-          <Button onClick={goToNextStep}>{formCopy.continueLabel} →</Button>
+          <Button key="continue" onClick={goToNextStep}>
+            {formCopy.continueLabel} →
+          </Button>
         )}
       </div>
     </form>
